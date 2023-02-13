@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Updated package dependencies.
+
 ## 1.0.3 - 2023-02-09
 ### Changed
 - Use JETPACK_MU_WPCOM_LOAD_VIA_BETA_PLUGIN to conditionally load the package. [#28880]
