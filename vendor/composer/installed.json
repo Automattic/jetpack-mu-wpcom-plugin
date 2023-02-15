@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "0.1.2",
-            "version_normalized": "0.1.2.0",
+            "version": "0.2.1",
+            "version_normalized": "0.2.1.0",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "b215763d19d8c92ef27c4d024bbd0f408cebb682"
+                "reference": "721b9c03be22f7b69dd071ba9b6652654c9d3e93"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.3.1",
@@ -22,7 +22,7 @@
                 },
                 "autotagger": true,
                 "branch-alias": {
-                    "dev-trunk": "0.1.x-dev"
+                    "dev-trunk": "0.2.x-dev"
                 },
                 "textdomain": "jetpack-mu-wpcom",
                 "version-constants": {
