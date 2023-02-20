@@ -4,18 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20a8482a6daa4234778d536dbb9524af",
+    "content-hash": "5e0bfd42d5c0bb064824a77338c74dd3",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "0.2.1",
+            "version": "0.2.2-alpha",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "721b9c03be22f7b69dd071ba9b6652654c9d3e93"
+                "reference": "928e102989b649e18c45ef18ebdcefd7f2508068"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^3.3.1",
+                "automattic/jetpack-changelogger": "^3.3.2-alpha",
                 "automattic/wordbless": "0.4.1",
                 "yoast/phpunit-polyfills": "1.0.4"
             },
@@ -42,9 +42,6 @@
             "scripts": {
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
-                ],
-                "test-coverage": [
-                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/clover.xml\""
                 ],
                 "test-php": [
                     "@composer phpunit"
@@ -74,11 +71,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "3.3.1",
+            "version": "3.3.2-alpha",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "2bc70ca2408e6fef017a6e63aa5b6e4e405082a2"
+                "reference": "17bac23f849f9d33399cb39629a7f896e9fa931d"
             },
             "require": {
                 "php": ">=5.6",
@@ -122,9 +119,6 @@
             "scripts": {
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
-                ],
-                "test-coverage": [
-                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/clover.xml\""
                 ],
                 "test-php": [
                     "@composer phpunit"
