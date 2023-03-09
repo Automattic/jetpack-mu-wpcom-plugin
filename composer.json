@@ -4,7 +4,7 @@
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-mu-wpcom": "^1.1.1"
+		"automattic/jetpack-mu-wpcom": "^1.1.0"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.0.4",
@@ -23,6 +23,7 @@
 			"@composer phpunit"
 		]
 	},
+	"repositories": [],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
