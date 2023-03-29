@@ -5,9 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 1.0.12-alpha - unreleased
+## 1.0.13-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+## 1.0.12 - 2023-03-28
 
 ## 1.0.11 - 2023-03-20
 ### Changed
