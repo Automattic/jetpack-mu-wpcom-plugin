@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Launchpad: Update composer.lock
 
+### Changed
+- Updated package dependencies.
+
 ## 1.0.12 - 2023-03-28
 
 ## 1.0.11 - 2023-03-20
