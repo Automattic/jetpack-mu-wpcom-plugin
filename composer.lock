@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04d6497bfa35045d36e7881e4bc424d9",
+    "content-hash": "2dd9c8ec38fb79ee8bffd67a1d807958",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Automattic/jetpack-mu-wpcom.git",
-                "reference": "478dadc0a36a25436869751cc491ed1058cbf8d3"
-            },
+            "version": "1.3.0",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-mu-wpcom/zipball/478dadc0a36a25436869751cc491ed1058cbf8d3",
-                "reference": "478dadc0a36a25436869751cc491ed1058cbf8d3",
-                "shasum": ""
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
+                "reference": "9639836c45d022c9f5db77e930383a1a2098a7fb"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.3.2",
@@ -45,31 +39,43 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "phpunit": [
+                    "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ],
+                "build-production": [
+                    "echo 'Add your build step to composer.json, please!'"
+                ],
+                "build-development": [
+                    "echo 'Add your build step to composer.json, please!'"
+                ],
+                "post-install-cmd": [
+                    "WorDBless\\Composer\\InstallDropin::copy"
+                ],
+                "post-update-cmd": [
+                    "WorDBless\\Composer\\InstallDropin::copy"
+                ]
+            },
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Enhances your site with features powered by WordPress.com",
-            "support": {
-                "source": "https://github.com/Automattic/jetpack-mu-wpcom/tree/v1.3.0"
-            },
-            "time": "2023-04-04T21:33:01+00:00"
+            "transport-options": {
+                "relative": false
+            }
         }
     ],
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "v3.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Automattic/jetpack-changelogger.git",
-                "reference": "7cf54b678e9a0e284a772abf01317ccc1b811715"
-            },
+            "version": "3.3.2",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-changelogger/zipball/7cf54b678e9a0e284a772abf01317ccc1b811715",
-                "reference": "7cf54b678e9a0e284a772abf01317ccc1b811715",
-                "shasum": ""
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
+                "reference": "2025fd982e0e6e4546b0e2dbe73e082e07586a24"
             },
             "require": {
                 "php": ">=5.6",
@@ -100,19 +106,37 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Automattic\\Jetpack\\Changelog\\": "lib",
-                    "Automattic\\Jetpack\\Changelogger\\": "src"
+                    "Automattic\\Jetpack\\Changelogger\\": "src",
+                    "Automattic\\Jetpack\\Changelog\\": "lib"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Automattic\\Jetpack\\Changelogger\\Tests\\": "tests/php/includes/src",
+                    "Automattic\\Jetpack\\Changelog\\Tests\\": "tests/php/includes/lib"
+                }
+            },
+            "scripts": {
+                "phpunit": [
+                    "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ],
+                "post-install-cmd": [
+                    "[ -e vendor/bin/changelogger ] || { cd vendor/bin && ln -s ../../bin/changelogger; }"
+                ],
+                "post-update-cmd": [
+                    "[ -e vendor/bin/changelogger ] || { cd vendor/bin && ln -s ../../bin/changelogger; }"
+                ]
+            },
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Jetpack Changelogger tool. Allows for managing changelogs by dropping change files into a changelog directory with each PR.",
-            "support": {
-                "source": "https://github.com/Automattic/jetpack-changelogger/tree/v3.3.2"
-            },
-            "time": "2023-02-20T19:46:43+00:00"
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "doctrine/instantiator",
@@ -2670,7 +2694,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "automattic/jetpack-mu-wpcom": 20,
+        "automattic/jetpack-changelogger": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
