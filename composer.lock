@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2dd9c8ec38fb79ee8bffd67a1d807958",
+    "content-hash": "06c42f2683ad41ae9b5f277e58a665e8",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
