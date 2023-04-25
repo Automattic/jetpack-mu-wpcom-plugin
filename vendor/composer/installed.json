@@ -2,12 +2,18 @@
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "1.5.0-alpha",
-            "version_normalized": "1.5.0.0-alpha",
+            "version": "v1.5.0",
+            "version_normalized": "1.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Automattic/jetpack-mu-wpcom.git",
+                "reference": "54dc03b5afdbafabc638df56b02b158e5cd0b63f"
+            },
             "dist": {
-                "type": "path",
-                "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "f9e9e9c602c27742f831be358bd9ba62e5444b5e"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Automattic/jetpack-mu-wpcom/zipball/54dc03b5afdbafabc638df56b02b158e5cd0b63f",
+                "reference": "54dc03b5afdbafabc638df56b02b158e5cd0b63f",
+                "shasum": ""
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.3.2",
@@ -17,6 +23,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
+            "time": "2023-04-25T15:05:46+00:00",
             "type": "jetpack-library",
             "extra": {
                 "mirror-repo": "Automattic/jetpack-mu-wpcom",
@@ -38,32 +45,13 @@
                     "src/"
                 ]
             },
-            "scripts": {
-                "phpunit": [
-                    "./vendor/phpunit/phpunit/phpunit --colors=always"
-                ],
-                "test-php": [
-                    "@composer phpunit"
-                ],
-                "build-production": [
-                    "echo 'Add your build step to composer.json, please!'"
-                ],
-                "build-development": [
-                    "echo 'Add your build step to composer.json, please!'"
-                ],
-                "post-install-cmd": [
-                    "WorDBless\\Composer\\InstallDropin::copy"
-                ],
-                "post-update-cmd": [
-                    "WorDBless\\Composer\\InstallDropin::copy"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Enhances your site with features powered by WordPress.com",
-            "transport-options": {
-                "relative": false
+            "support": {
+                "source": "https://github.com/Automattic/jetpack-mu-wpcom/tree/v1.5.0"
             },
             "install-path": "../automattic/jetpack-mu-wpcom"
         }
