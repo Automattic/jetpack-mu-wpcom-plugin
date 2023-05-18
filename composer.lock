@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8884705a1fd5109f2fe175aaba614e47",
+    "content-hash": "544cb37a4d16f313de0e7aaacf7a7005",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
@@ -12,10 +12,10 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "f6434b778281334f681c6846fd0fd16a4d019e25"
+                "reference": "fef645b5b81a0da9459405a71b0b0728204dfca9"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^3.3.3",
+                "automattic/jetpack-changelogger": "^3.3.4-alpha",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.0.4"
             },
@@ -74,11 +74,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "3.3.3",
+            "version": "3.3.4-alpha",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "695898eb2e90f628c829139655faad8ada18f5b6"
+                "reference": "2dfbd395e9f7e613095f59b4c5f2d91d5a039c9d"
             },
             "require": {
                 "php": ">=5.6",
@@ -137,6 +137,12 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Jetpack Changelogger tool. Allows for managing changelogs by dropping change files into a changelog directory with each PR.",
+            "keywords": [
+                "changelog",
+                "cli",
+                "dev",
+                "keepachangelog"
+            ],
             "transport-options": {
                 "relative": false
             }
