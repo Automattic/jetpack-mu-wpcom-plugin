@@ -13,7 +13,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '2.2.1-alpha',
             'version' => '2.2.1.0-alpha',
-            'reference' => 'fef645b5b81a0da9459405a71b0b0728204dfca9',
+            'reference' => 'f6434b778281334f681c6846fd0fd16a4d019e25',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-mu-wpcom',
             'aliases' => array(),
