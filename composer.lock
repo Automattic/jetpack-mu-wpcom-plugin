@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "325c0b86be306e42903967c23fae223f",
+    "content-hash": "e34dc65dffd465deda096959b0532be6",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "4.1.0-alpha.1690378962",
+            "version": "4.1.0-alpha.1690388159",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "ea3f51c483b6526a691830879109436db0145308"
+                "reference": "5e1e6a6606866b6da59aa7ea2bd2f8afff3e5ba8"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.3.7",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "26d996f9d027c3afdb16c22e1e5ab29324afa7d0"
+                "reference": "667956286e57a59f4e2d54011a3b626144662128"
             },
             "require": {
                 "php": ">=5.6",
