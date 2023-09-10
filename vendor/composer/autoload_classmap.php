@@ -11,4 +11,5 @@ return array(
     'Launchpad_Task_Lists' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php',
     'Marketplace_Products_Updater' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/marketplace-products-updater/class-marketplace-products-updater.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
+    'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
 );
