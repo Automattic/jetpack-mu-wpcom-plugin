@@ -4,18 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecd1fefe295d2ac5fd447cdb35d802c6",
+    "content-hash": "2cf19ec7d7139b9a1e22dbb739b33c5a",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "4.11.0-alpha.1695666572",
+            "version": "4.12.0-alpha.1695674637",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "6ae813d70fca2c523f93df4d638c930fdb0ac3bd"
+                "reference": "258258cff00b00e519ecd9fc529782f59267bf80"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^3.3.10-alpha",
+                "automattic/jetpack-changelogger": "^3.3.10",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -30,7 +30,7 @@
                 },
                 "autotagger": true,
                 "branch-alias": {
-                    "dev-trunk": "4.11.x-dev"
+                    "dev-trunk": "4.12.x-dev"
                 },
                 "textdomain": "jetpack-mu-wpcom",
                 "version-constants": {
@@ -74,11 +74,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "3.3.10-alpha.1695663293",
+            "version": "3.3.10",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "cacc0acc6045270285449cf8f5abb9eaaa9f9f80"
+                "reference": "4338bcd852d793ee31c9aa00af4dbc1055287e16"
             },
             "require": {
                 "php": ">=5.6",
