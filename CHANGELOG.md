@@ -13,6 +13,10 @@ This is an alpha version! The changes listed here are not final.
 - Updated lock file
 - Updated lock files
 
+## 1.6.24 - 2023-10-04
+### Changed
+- Internal updates.
+
 ## 1.6.23 - 2023-10-03
 
 - Minor internal updates.
