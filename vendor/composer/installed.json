@@ -7,13 +7,13 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "c954a964f49bb78e84d5880c78ce6a9e40d7c5c4"
+                "reference": "7582c69ea7716291254e416db8ff441738d56228"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.0.1-alpha",
+                "automattic/jetpack-changelogger": "^4.0.1",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
