@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "f8ac96a571ed57b10b4a7fc97e7cd9f7c18d2871"
+                "reference": "9a5d4752d034fd84a59851283698e7023fb7de1a"
             },
             "require": {
                 "php": ">=7.0"
