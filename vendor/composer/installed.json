@@ -2,18 +2,18 @@
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.1.0-alpha.1700808594",
-            "version_normalized": "5.1.0.0-alpha1700808594",
+            "version": "5.1.0",
+            "version_normalized": "5.1.0.0",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "4aafbcf87449fb5d560daffd92e75b50c323b8e4"
+                "reference": "02368d8057368b2716900d9314369a6e5e8472b3"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.0.3-alpha",
+                "automattic/jetpack-changelogger": "^4.0.3",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
