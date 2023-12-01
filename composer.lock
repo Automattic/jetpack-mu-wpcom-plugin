@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89b2fbc6885c6d2598ff0a9430358f0e",
+    "content-hash": "e82a9d630190a420a5928f90b8c57070",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.1.1-alpha.1701333262",
+            "version": "5.1.1",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "d16e30c18e3097903f42984ae6e25b0fb32cbe96"
+                "reference": "cbfbee5f842333681d393e9acd587aba7833b67f"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.0.4-alpha",
+                "automattic/jetpack-changelogger": "^4.0.4",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -77,11 +77,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "4.0.4-alpha.1701188454",
+            "version": "4.0.4",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "976685929041cddf1f8ab9f8add6fc79d735cd5c"
+                "reference": "021386df7d81dd1009f2f9f6f73e64e915b94b85"
             },
             "require": {
                 "php": ">=7.0",
