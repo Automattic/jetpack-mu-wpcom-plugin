@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fadf8893eb669d62c0bf30b2787970a6",
+    "content-hash": "45f181cad3a8e6e00dc85c43b6996f64",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.2.0-alpha.1701424238",
+            "version": "5.2.0-alpha.1701685559",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "71e7944722396c6f63877f5ee74c63c4ea9e8ff1"
+                "reference": "87550c251fe0151575c0aeb27a1d2760b1b683ee"
             },
             "require": {
                 "php": ">=7.0"
@@ -53,10 +53,10 @@
                     "@composer phpunit"
                 ],
                 "build-production": [
-                    "echo 'Add your build step to composer.json, please!'"
+                    "pnpm run build-production-js"
                 ],
                 "build-development": [
-                    "echo 'Add your build step to composer.json, please!'"
+                    "pnpm run build-js"
                 ],
                 "post-install-cmd": [
                     "WorDBless\\Composer\\InstallDropin::copy"
@@ -81,7 +81,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "e6defa3ad266234393e32c2f8a5b647d1afc1db1"
+                "reference": "8468ae8fd2279e083c45a55f73444cbbd7d345ef"
             },
             "require": {
                 "php": ">=7.0",

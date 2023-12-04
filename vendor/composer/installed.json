@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.2.0-alpha.1701424238",
-            "version_normalized": "5.2.0.0-alpha1701424238",
+            "version": "5.2.0-alpha.1701685559",
+            "version_normalized": "5.2.0.0-alpha1701685559",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "71e7944722396c6f63877f5ee74c63c4ea9e8ff1"
+                "reference": "87550c251fe0151575c0aeb27a1d2760b1b683ee"
             },
             "require": {
                 "php": ">=7.0"
@@ -49,10 +49,10 @@
                     "@composer phpunit"
                 ],
                 "build-production": [
-                    "echo 'Add your build step to composer.json, please!'"
+                    "pnpm run build-production-js"
                 ],
                 "build-development": [
-                    "echo 'Add your build step to composer.json, please!'"
+                    "pnpm run build-js"
                 ],
                 "post-install-cmd": [
                     "WorDBless\\Composer\\InstallDropin::copy"
