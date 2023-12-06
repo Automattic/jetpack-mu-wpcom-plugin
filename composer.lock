@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02f17583c9e22575d793139cbff26458",
+    "content-hash": "7305a2442e0b97eaa82622f441db185c",
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
@@ -12,13 +12,13 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "910a0686c1f0bba91ab82a7ffe39988a34e3e63a"
+                "reference": "155de37236e8e2841aeb86c5f1ed1be4631d797a"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.0.4",
+                "automattic/jetpack-changelogger": "^4.0.5-alpha",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -77,11 +77,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "4.0.4",
+            "version": "4.0.5-alpha.1701883615",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "d618a8d21d6d89f794cca93f78d482e04096d061"
+                "reference": "de81594260ef06dedde17790d24ca20e127a37ff"
             },
             "require": {
                 "php": ">=7.0",
@@ -89,7 +89,7 @@
                 "symfony/process": "^3.4 || ^4.4 || ^5.2 || ^6.0"
             },
             "require-dev": {
-                "wikimedia/testing-access-wrapper": "^1.0 || ^2.0",
+                "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
             "bin": [
