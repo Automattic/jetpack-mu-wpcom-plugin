@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.9.0-alpha.1705403326",
-            "version_normalized": "5.9.0.0-alpha1705403326",
+            "version": "5.9.0-alpha.1705483630",
+            "version_normalized": "5.9.0.0-alpha1705483630",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "71dd0526d153cdecde89d6999a28706c7dbd3aff"
+                "reference": "409ff2f8cfa149ea31b21c3292e28e2c8d60a3a2"
             },
             "require": {
                 "php": ">=7.0"
