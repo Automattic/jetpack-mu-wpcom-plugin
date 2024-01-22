@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/jetpack-mu-wpcom' => array(
-            'pretty_version' => '5.9.0-alpha.1705691664',
-            'version' => '5.9.0.0-alpha1705691664',
-            'reference' => 'e9ba5b1057c55d95f20cd9cf52f6f6d8e0e42f08',
+            'pretty_version' => 'v5.9.0',
+            'version' => '5.9.0.0',
+            'reference' => 'b83f17453b909b62cc9496a58d1eaacb0592e766',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-mu-wpcom',
             'aliases' => array(),
