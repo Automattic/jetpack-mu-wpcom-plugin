@@ -7,15 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/class-jetpack-mu-wpcom.php',
-    'Automattic\\Jetpack\\Verbum_Comments' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Launchpad_Task_Lists' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php',
     'Marketplace_Products_Updater' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/marketplace-products-updater/class-marketplace-products-updater.php',
-    'Verbum_Gutenberg_Editor' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
-    'WPCOM_REST_API_V2_Verbum_Auth' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-auth.php',
-    'WPCOM_REST_API_V2_Verbum_OEmbed' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-oembed.php',
     'Wpcom_Block_Patterns_From_Api' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-from-api.php',
     'Wpcom_Block_Patterns_Utils' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-utils.php',
 );
