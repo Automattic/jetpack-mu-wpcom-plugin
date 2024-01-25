@@ -13,7 +13,7 @@ namespace Automattic\Jetpack;
  * Jetpack_Mu_Wpcom main class.
  */
 class Jetpack_Mu_Wpcom {
-	const PACKAGE_VERSION = '5.10.0-alpha';
+	const PACKAGE_VERSION = '5.10.0';
 	const PKG_DIR         = __DIR__ . '/../';
 	const BASE_DIR        = __DIR__ . '/';
 	const BASE_FILE       = __FILE__;
@@ -42,10 +42,7 @@ class Jetpack_Mu_Wpcom {
 
 		add_action( 'plugins_loaded', array( __CLASS__, 'load_first_posts_stream_helpers' ) );
 
-		// This feature runs only on simple sites
-		if ( defined( 'IS_WPCOM' ) && IS_WPCOM ) {
-			add_action( 'plugins_loaded', array( __CLASS__, 'load_verbum_comments' ) );
-		}
+		add_action( 'plugins_loaded', array( __CLASS__, 'load_verbum_comments' ) );
 
 		// Unified navigation fix for changes in WordPress 6.2.
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'unbind_focusout_on_wp_admin_bar_menu_toggle' ) );
@@ -230,13 +227,8 @@ class Jetpack_Mu_Wpcom {
 	 * @param int $blog_id The blog ID.
 	 * @return boolean
 	 */
-	private static function should_disable_comment_experience( $blog_id ) {
-		$path_wp_for_teams = WP_CONTENT_DIR . '/lib/wpforteams/functions.php';
-
-		if ( file_exists( $path_wp_for_teams ) ) {
-			require_once $path_wp_for_teams;
-		}
-
+	private function should_disable_comment_experience( $blog_id ) {
+		require_once WP_CONTENT_DIR . '/lib/wpforteams/functions.php';
 		// This covers both P2 and P2020 themes.
 		$is_p2     = str_contains( get_stylesheet(), 'pub/p2' ) || function_exists( '\WPForTeams\is_wpforteams_site' ) && is_wpforteams_site( $blog_id );
 		$is_forums = str_contains( get_stylesheet(), 'a8c/supportforums' ); // Not in /forums
@@ -259,7 +251,7 @@ class Jetpack_Mu_Wpcom {
 			if ( isset( $_GET['blogid'] ) ) {
 				$blog_id = intval( $_GET['blogid'] ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 			}
-			if ( self::should_disable_comment_experience( $blog_id ) ) {
+			if ( should_disable_comment_experience( $blog_id ) ) {
 				return false;
 			}
 			require_once __DIR__ . '/build/verbum-comments/class-verbum-comments.php';
