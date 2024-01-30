@@ -6,6 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Automattic\\Jetpack\\Assets' => $vendorDir . '/automattic/jetpack-assets/src/class-assets.php',
+    'Automattic\\Jetpack\\Assets\\Semver' => $vendorDir . '/automattic/jetpack-assets/src/class-semver.php',
+    'Automattic\\Jetpack\\Constants' => $vendorDir . '/automattic/jetpack-constants/src/class-constants.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/class-jetpack-mu-wpcom.php',
     'Automattic\\Jetpack\\Verbum_Comments' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
