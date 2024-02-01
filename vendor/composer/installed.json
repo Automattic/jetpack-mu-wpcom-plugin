@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-assets",
-            "version": "2.0.4",
-            "version_normalized": "2.0.4.0",
+            "version": "2.1.0-alpha.1706803348",
+            "version_normalized": "2.1.0.0-alpha1706803348",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "898efa28e88bcb27c91c245e312e31e69b99721c"
+                "reference": "ad23d7e7976a6fe48b6388d54995ab5da3779335"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -31,7 +31,7 @@
                     "link-template": "https://github.com/Automattic/jetpack-assets/compare/v${old}...v${new}"
                 },
                 "branch-alias": {
-                    "dev-trunk": "2.0.x-dev"
+                    "dev-trunk": "2.1.x-dev"
                 }
             },
             "installation-source": "dist",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "f36f052e5fe626cb3979224797f8be12c9930f48"
+                "reference": "25906a785124ee552ba832ffb05306805522e655"
             },
             "require": {
                 "php": ">=7.0"
@@ -130,10 +130,10 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "95089f782cf029ef1aa04534a04364d898d97f88"
+                "reference": "ae3c22f1d84ce3cdd443fb2d7d7c4729712998a1"
             },
             "require": {
-                "automattic/jetpack-assets": "^2.0.4",
+                "automattic/jetpack-assets": "^2.1.0-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
