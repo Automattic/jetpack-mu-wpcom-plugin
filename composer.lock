@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "905f4fd01eee5fad1eb33baafdb0f1b6",
+    "content-hash": "77242b06d54edc1d352a294622abb500",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "958db8889243aa6602d0732e2019b797a496d42e"
+                "reference": "af9f1dc00e4a1be4cb8eade1f5d985b834950ac6"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "839514ae17379f9f457d6a3329a7c7564cb8f50e"
+                "reference": "a92bb81149e14c36f38ac0274163542949a0c38b"
             },
             "require": {
                 "php": ">=7.0"
@@ -129,7 +129,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "2d196388597fc0ac86d5233aedb79857fd40f1a1"
+                "reference": "378524a447154714e9ca0f3fe4dfbd3af2209afc"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.0",
@@ -199,7 +199,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "4ab25c23d48ed0f840e0db00a16c9ae273772aee"
+                "reference": "39864a042134dca591a643d7a6e3b876301ca4f0"
             },
             "require": {
                 "php": ">=7.0",
