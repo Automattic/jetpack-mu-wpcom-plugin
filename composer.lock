@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6428b1f26da8e989c8144d0b4da6163",
+    "content-hash": "bf1cf32552f2a43de5bd22e06ac9dc95",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "9eda1fd330ae566ddc0daef5f142061e29385792"
+                "reference": "17e47f017bd89d1ba795212bfac8725cb28503a7"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "c2e55ffb2710d4616f119cf99051135597238701"
+                "reference": "7972af74c73a696fb1515ddcefcdfd65e368dc2f"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,11 +125,11 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.12.1-alpha.1707380741",
+            "version": "5.12.1-alpha.1707390345",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "a515dfb06186bb1565f5ffeda6ebe2f945e0070b"
+                "reference": "56296facc68fd3f29f17c256f1d9b5c7047868d1"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.0",
@@ -199,7 +199,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "5ac1f03fa71aba7a536266d9c0eb577bcb22ead3"
+                "reference": "21d1e9621753e772b06c916d7c61632397aef29d"
             },
             "require": {
                 "php": ">=7.0",

@@ -19,6 +19,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Launchpad_Task_Lists' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php',
         'Marketplace_Products_Updater' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/marketplace-products-updater/class-marketplace-products-updater.php',
+        'Verbum_Block_Utils' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
         'Verbum_Gutenberg_Editor' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
         'WPCOM_REST_API_V2_Endpoint_Launchpad' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
         'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
