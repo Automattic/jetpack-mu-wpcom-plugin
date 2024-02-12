@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d39ba11b1298bf086740828ccf219dc",
+    "content-hash": "73dc79e909e023e0e0d1beb95b708776",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
-            "version": "2.1.0",
+            "version": "2.1.1-alpha.1707769353",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "f142c449485dc1f72d42b32e49f27c4867a92c2a"
+                "reference": "7028c345a1a9434808561645ca4babc1cf7648f1"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "de8e81e35588a4154d4ef8a76b87494c750caf6d"
+                "reference": "e91d358cf2e1adc78d84bc4413c59712aab3b0bf"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,14 +125,14 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.12.1-alpha.1707737175",
+            "version": "5.12.1-alpha.1707769353",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "98198d2eec91b545704b5727996b0a7b3299dcfd"
+                "reference": "0a826c4cc8467dea0fd1f3b5b5cda78ed91e28a3"
             },
             "require": {
-                "automattic/jetpack-assets": "^2.1.0",
+                "automattic/jetpack-assets": "^2.1.1-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
@@ -199,7 +199,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "4e146275c4ecd15be2d379731ae5430af7f00238"
+                "reference": "30a03dad21228bfdf79ee609a998c31fd7fef739"
             },
             "require": {
                 "php": ">=7.0",
