@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "3bb4976fab6ab98b8c29e2090ae72c9bc529b757"
+                "reference": "f501e3afe32b5fef3ec133d15dc7cb068cf8a06a"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "be08f8b840e3edbfb90b37057121567649a4d03f"
+                "reference": "00a7e35c0232cb898bd82b262488030988d1c6e3"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,12 +125,12 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.13.0-alpha.1708334820",
-            "version_normalized": "5.13.0.0-alpha1708334820",
+            "version": "5.13.0",
+            "version_normalized": "5.13.0.0",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "333003969aa30bb56909e138521fa51187b168f7"
+                "reference": "732ce16e67046151c9541bf9d490ff5fbcd40912"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.1",
