@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0dac25e1abb35b9a6211fe3aa40f7ca6",
+    "content-hash": "9a3d45b6810f3331b89831344fb67865",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "9d4e65553b27148cc10b8d8c8c4fb256ad9b5e29"
+                "reference": "c73f634f5c8d01703e162dc208f162fd4ab80549"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "918309f0c9c4573c352b359eacac7cee980cd108"
+                "reference": "0199de2c9a7c0c92495b2560f98fbcfcdd28bc18"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,14 +125,15 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.13.1",
+            "version": "5.14.0-alpha.1708634064",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "5263af5c1e81fb277f3795a712462dc94a0d291d"
+                "reference": "c6fe6b76a4aeed2610935e143100448ebce0a1f4"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.1",
+                "automattic/scheduled-updates": "^0.1.0-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
@@ -151,7 +152,7 @@
                 },
                 "autotagger": true,
                 "branch-alias": {
-                    "dev-trunk": "5.13.x-dev"
+                    "dev-trunk": "5.14.x-dev"
                 },
                 "textdomain": "jetpack-mu-wpcom",
                 "version-constants": {
@@ -190,6 +191,67 @@
             "transport-options": {
                 "relative": false
             }
+        },
+        {
+            "name": "automattic/scheduled-updates",
+            "version": "0.1.0-alpha.1708634064",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
+                "reference": "927f976c4d2a0d1377433d48f45cbc018aa2e9a1"
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^4.1.0",
+                "automattic/wordbless": "@dev",
+                "yoast/phpunit-polyfills": "1.1.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "mirror-repo": "Automattic/scheduled-updates",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/scheduled-updates/compare/v${old}...v${new}"
+                },
+                "autotagger": true,
+                "branch-alias": {
+                    "dev-trunk": "0.1.x-dev"
+                },
+                "textdomain": "jetpack-scheduled-updates",
+                "version-constants": {
+                    "::PACKAGE_VERSION": "src/class-scheduled-updates.php"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ],
+                "post-install-cmd": [
+                    "WorDBless\\Composer\\InstallDropin::copy"
+                ],
+                "post-update-cmd": [
+                    "WorDBless\\Composer\\InstallDropin::copy"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Runs plugin and (eventually) theme updates on a set schedule.",
+            "transport-options": {
+                "relative": false
+            }
         }
     ],
     "packages-dev": [
@@ -199,7 +261,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "0ad0246a8d598446024781cab66bb9e3fefecc2a"
+                "reference": "31bcb7424265d7afcfbaae50b56b2b252bb7364e"
             },
             "require": {
                 "php": ">=7.0",
