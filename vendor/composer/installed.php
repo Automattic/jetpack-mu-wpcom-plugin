@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/jetpack-assets' => array(
-            'pretty_version' => '2.1.1',
-            'version' => '2.1.1.0',
-            'reference' => 'cef96ab8f7edbadfd89656c2b309dc65a1f242c2',
+            'pretty_version' => '2.1.2-alpha.1709373058',
+            'version' => '2.1.2.0-alpha1709373058',
+            'reference' => '395ab08d9c4dc830a94f3db63ea5edcd446666b1',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-assets',
             'aliases' => array(),
@@ -22,16 +22,16 @@
         'automattic/jetpack-constants' => array(
             'pretty_version' => '2.0.0',
             'version' => '2.0.0.0',
-            'reference' => 'acb75ab5e99ba5ed4f7723563f2fd75c62a48a5f',
+            'reference' => '00b7ef1e68f3bb812762f804e40171586f3368eb',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-constants',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'automattic/jetpack-mu-wpcom' => array(
-            'pretty_version' => '5.15.0-alpha.1709263651',
-            'version' => '5.15.0.0-alpha1709263651',
-            'reference' => '6e1262a73cfb330a44c88599ef715f41e68bfab1',
+            'pretty_version' => '5.15.0-alpha.1709373058',
+            'version' => '5.15.0.0-alpha1709373058',
+            'reference' => '74f1113961c9c2bb06da2dac4152260b05309cec',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-mu-wpcom',
             'aliases' => array(),
@@ -49,7 +49,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.3.0-alpha.1709295470',
             'version' => '0.3.0.0-alpha1709295470',
-            'reference' => 'e2f377cb4bf6c2c32f7cd2de018a1af29557bfba',
+            'reference' => '8ccbf6ff6a8bf5c32293e714de4046964dc3397e',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/scheduled-updates',
             'aliases' => array(),
