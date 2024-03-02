@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "ec59ce707b94d9be2b3f370eeaf238458243aa49"
+                "reference": "09218a44ca2b3fffdceba164c2adb8b0fcbbef64"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "6c9cb30458a38f1715b4b67dd03c72f5f6771916"
+                "reference": "d68238af15d92a127884df896311cb12bbc8dc1e"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,12 +125,12 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.15.0-alpha.1709392561",
-            "version_normalized": "5.15.0.0-alpha1709392561",
+            "version": "5.15.0-alpha.1709394162",
+            "version_normalized": "5.15.0.0-alpha1709394162",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "9e8db7fbf9e6dc11a1fc7a4cec06ae8a1d25b358"
+                "reference": "e513e6358a2d3fb67ef4e05e0206daf9674689e5"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.2-alpha",
@@ -202,7 +202,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "1b1799abb4fa030c9976acf3d775a4fdbbcb1fde"
+                "reference": "0e3f8580850c69e20be29351c8c2a002399d10ec"
             },
             "require": {
                 "php": ">=7.0"
