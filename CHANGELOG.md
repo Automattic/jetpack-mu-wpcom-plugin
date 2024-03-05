@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.1.1-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 2.1.1 - 2024-03-05
 ### Fixed
-- Updated dependencies.
+- Updated dependencies. [#36170]
 
 ## 2.1.0 - 2024-03-04
 ### Added
