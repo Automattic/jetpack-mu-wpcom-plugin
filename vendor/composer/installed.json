@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "8793395e7b98e6ee6f697042d910c9882a563abe"
+                "reference": "5a6e9b22e0c5e2eec636a3e495783fc412361d29"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.0",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "6c43d8b489f45f12080ab9bf3dc855a9d87a1532"
+                "reference": "9208e90a01ed9ef46736ab0b8e293986419bd073"
             },
             "require": {
                 "php": ">=7.0"
@@ -130,11 +130,11 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "2ea24ffd072744e0b966423d277b0d17d20d3a21"
+                "reference": "6b6adfdb937e92e2e932db128a929520a9402e42"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.2",
-                "automattic/scheduled-updates": "^0.3.0",
+                "automattic/scheduled-updates": "^0.3.1-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
@@ -197,12 +197,12 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.3.0",
-            "version_normalized": "0.3.0.0",
+            "version": "0.3.1-alpha.1709625800",
+            "version_normalized": "0.3.1.0-alpha1709625800",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "33af120e695f3593ccc9ac4f7ca4ba8964ba4aac"
+                "reference": "69d71b3e8159fba691456c0513e433528c1cf27f"
             },
             "require": {
                 "php": ">=7.0"
@@ -211,6 +211,7 @@
                 "automattic/jetpack-changelogger": "^4.1.0",
                 "automattic/jetpack-plans": "^0.4.2",
                 "automattic/wordbless": "@dev",
+                "php-mock/php-mock-phpunit": "^2.10",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
             "suggest": {
