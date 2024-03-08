@@ -19,6 +19,7 @@ return array(
     'Verbum_Gutenberg_Editor' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
+    'WPCOM_REST_API_V2_Endpoint_Site_Migration_Migrate_Guru_Key' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-migrate-guru-key.php',
     'WPCOM_REST_API_V2_Endpoint_Update_Schedules' => $vendorDir . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules.php',
     'WPCOM_REST_API_V2_Verbum_Auth' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-auth.php',
     'WPCOM_REST_API_V2_Verbum_OEmbed' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-oembed.php',
