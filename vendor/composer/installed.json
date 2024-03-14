@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "02c2374e2d3436d3330d9527e6c04e304b571f0e"
+                "reference": "59035dd869881caac0fc984f34538b5a1169e6ed"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "b1dbb3807b1bfa4fa82b89a8d39edaed5a76ad1b"
+                "reference": "5f70535374d39c14f293010d4f4202640514c3d1"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,12 +125,12 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.17.0-alpha.1710360610",
-            "version_normalized": "5.17.0.0-alpha1710360610",
+            "version": "5.17.0-alpha.1710434438",
+            "version_normalized": "5.17.0.0-alpha1710434438",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "947c903478487ad2ca3f8f849fab477cfa8014b7"
+                "reference": "c96afd64c50b168009563bf39990d9083d658805"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.4",
@@ -197,12 +197,12 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.3.5-alpha.1710398866",
-            "version_normalized": "0.3.5.0-alpha1710398866",
+            "version": "0.3.5-alpha.1710434438",
+            "version_normalized": "0.3.5.0-alpha1710434438",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "7aa0f276604d91c822bd45b25952ad8effaf972c"
+                "reference": "8623963222b2cc769261b0632f6e958c94217ade"
             },
             "require": {
                 "php": ">=7.0"
