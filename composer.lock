@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06b0117c04b0753fba9261608dce83dc",
+    "content-hash": "1d582b5661c9191a06636b85c0b54b11",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
-            "version": "2.1.4",
+            "version": "2.1.5-alpha.1710536348",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "1cefe5707f9a4c5ae0d28e4886b38d878f9e29f1"
+                "reference": "6f625f06774b76750b68463fefbcd2bd9e6eb2bf"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "1a9601f47967d523c901b681c5caf545f05746bf"
+                "reference": "f3b98afda5a4c142257bced3003322cfc55f7b79"
             },
             "require": {
                 "php": ">=7.0"
@@ -129,10 +129,10 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "43db788bcec87f7616b4e2c69747918a579b1609"
+                "reference": "f734be516f8ada74879cddeedd267cf52ae42375"
             },
             "require": {
-                "automattic/jetpack-assets": "^2.1.4",
+                "automattic/jetpack-assets": "^2.1.5-alpha",
                 "automattic/scheduled-updates": "^0.4.1-alpha",
                 "php": ">=7.0"
             },
@@ -198,7 +198,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "585b0220a8abb95aa00916858e41b5bcf24d97ed"
+                "reference": "a64bbb0fc59073b2b0787deba68bb8b2e1231f24"
             },
             "require": {
                 "php": ">=7.0"
@@ -259,11 +259,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "4.1.2-alpha.1710525888",
+            "version": "4.1.2-alpha.1710536348",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "0f613b853f54b8a8a87bce08f9d630c0534fc124"
+                "reference": "f676740c8b79bd2480c94fdcfec6d77f4795e690"
             },
             "require": {
                 "php": ">=7.0",
