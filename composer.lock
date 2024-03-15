@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f995d5f0fa0ad85c52cb506b2e6a2f59",
+    "content-hash": "9a6dfd1dd504e8edebd0c71c504cafe7",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,14 +12,14 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "ee1f5e539ba733cd5e75b254624688dfd0ac9bac"
+                "reference": "4993f2e1d3e75e23626dedfd4981db5ab3181252"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.1.1",
+                "automattic/jetpack-changelogger": "^4.1.2-alpha",
                 "brain/monkey": "2.6.1",
                 "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
                 "yoast/phpunit-polyfills": "1.1.0"
@@ -78,13 +78,13 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "db5ef03b6b4b60a3ff255b1ea9c85e3cb3240a03"
+                "reference": "a5b41d34cff8bcbed9a2bf0cd8f972b68bb73a06"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.1.1",
+                "automattic/jetpack-changelogger": "^4.1.2-alpha",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -129,15 +129,15 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "69208ad00a9368c466acb6e746a3580e512280f1"
+                "reference": "7fa0c9ad804090c3a35527d72a6db9e91221daa5"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.4",
-                "automattic/scheduled-updates": "^0.4.0",
+                "automattic/scheduled-updates": "^0.4.1-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.1.1",
+                "automattic/jetpack-changelogger": "^4.1.2-alpha",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -194,17 +194,17 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.4.0",
+            "version": "0.4.1-alpha.1710525888",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "3b8a8902ef0d00e5c149c88444aae639cda4acf2"
+                "reference": "312a2df98ca6180b977bd8f1a3d2b1071cd7cb44"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.1.1",
+                "automattic/jetpack-changelogger": "^4.1.2-alpha",
                 "automattic/jetpack-plans": "^0.4.3",
                 "automattic/wordbless": "@dev",
                 "php-mock/php-mock-phpunit": "^2.10",
@@ -259,11 +259,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "4.1.1",
+            "version": "4.1.2-alpha.1710525888",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "040529ae1feed7f8ad3b2fd19c55c26f3f9440ad"
+                "reference": "41b6c348a6f2caf2988f8b394e4ec30e0f2233a4"
             },
             "require": {
                 "php": ">=7.0",
