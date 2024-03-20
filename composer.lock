@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b0a4a9dfd5d234f2d410d1be1dcc1d6",
+    "content-hash": "7d8c1c96af58f4caa9a49c017507dc95",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "9f0bf4517238e6f511fe90b47099b8df6b64f291"
+                "reference": "82e52fc5d1c87fc30cf70b549ebf827865963499"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "77458fbde418eb0967a2dc9aae14e248cd3aee87"
+                "reference": "2edeb97cfd08907cce2a628ffeba1ffaae62c335"
             },
             "require": {
                 "php": ">=7.0"
@@ -129,11 +129,11 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "fd74f6e90f1f7084e791ff6ebd1c1b74f6e9eb80"
+                "reference": "0d508355b35fa36d8296a08bab6b3c4eeb9dd510"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.5",
-                "automattic/scheduled-updates": "^0.4.2-alpha",
+                "automattic/scheduled-updates": "^0.5.0-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
@@ -194,11 +194,11 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.4.2-alpha.1710939962",
+            "version": "0.5.0-alpha.1710951026",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "d922af0f09ae107d3045ba787b7f0ef474bc7912"
+                "reference": "9007f643df8ca825ae44e465e3f993d4c00b0b80"
             },
             "require": {
                 "php": ">=7.0"
@@ -221,7 +221,7 @@
                 },
                 "autotagger": true,
                 "branch-alias": {
-                    "dev-trunk": "0.4.x-dev"
+                    "dev-trunk": "0.5.x-dev"
                 },
                 "textdomain": "jetpack-scheduled-updates",
                 "version-constants": {
@@ -263,7 +263,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "326ab9ddf0bd86533fb61a472da20f1f64e21c48"
+                "reference": "848ecf8f12f398074ade9ed1e7c5520a539c3863"
             },
             "require": {
                 "php": ">=7.0",
