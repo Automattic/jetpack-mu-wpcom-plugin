@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84281770eea4fbda456ee23443c964ad",
+    "content-hash": "87d74e7191787dea6d0425928a743a48",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "4b523147755b9afa71c632d22806aef33926bc9e"
+                "reference": "1799973b1a30dd134f362ac310b7b25fc07743f9"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "84a47eed0884e87ba978c1989d88c77a7bce5d2b"
+                "reference": "337718ca2917210bf767fd809ddbdd9a37aad286"
             },
             "require": {
                 "php": ">=7.0"
@@ -129,7 +129,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "1dd99fc0dcf09953008c68c915d7948a2b43b010"
+                "reference": "6e194fee6d7b56bc1ccf41dd2bfe273904f8b150"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.5",
@@ -198,7 +198,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "4e59104b1daa9b40fdd2794fecb19876a9d69527"
+                "reference": "31d674b04cb91966b733a3ecdcf2f25964443377"
             },
             "require": {
                 "php": ">=7.0"
@@ -263,7 +263,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "60251be91730d93c30ec2ca89151a35f27ecf4d1"
+                "reference": "49f0bcdd7c4a624ecf2c4f76ed17821abec99811"
             },
             "require": {
                 "php": ">=7.0",
