@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "ffbe5e1bf6a901e3e385042329479f0c9a5fd746"
+                "reference": "4ca1d54953a20e0871a6429ef28b3b2ebaa2e098"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "537ec1e6a0e5387e21bf948346e18657cb6e8fb2"
+                "reference": "b84be497c3fe2dfdd87905d423ff290c50c65833"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,16 +125,16 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.23.0",
-            "version_normalized": "5.23.0.0",
+            "version": "5.23.1",
+            "version_normalized": "5.23.1.0",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "6f6bdd0a600ff28bbcd724324d712baeabc2c74e"
+                "reference": "c0b52d8aa7654883ac8f4ee81a2868c6b1be8248"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.6",
-                "automattic/scheduled-updates": "^0.7.0-alpha",
+                "automattic/scheduled-updates": "^0.7.0",
                 "php": ">=7.0"
             },
             "require-dev": {
@@ -197,12 +197,12 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.7.0-alpha.1712322407",
-            "version_normalized": "0.7.0.0-alpha1712322407",
+            "version": "0.7.0",
+            "version_normalized": "0.7.0.0",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "c8bd9af3573c3580c69fa7e2e1c28bad5f3a9253"
+                "reference": "6f1b0d179f76371e09b337ebb82912949ee87fb1"
             },
             "require": {
                 "php": ">=7.0"
