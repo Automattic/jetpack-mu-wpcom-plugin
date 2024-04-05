@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "ed6cd3d60867c08f919095fd0ff9c549f1202851"
+                "reference": "ffbe5e1bf6a901e3e385042329479f0c9a5fd746"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "17535a0a41b1016633efaefc3e9e587301448e53"
+                "reference": "537ec1e6a0e5387e21bf948346e18657cb6e8fb2"
             },
             "require": {
                 "php": ">=7.0"
@@ -130,11 +130,11 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "f072c93df0325cfd3b0e9fe9689e7f114593d2f4"
+                "reference": "6f6bdd0a600ff28bbcd724324d712baeabc2c74e"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.6",
-                "automattic/scheduled-updates": "^0.6.0",
+                "automattic/scheduled-updates": "^0.7.0-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
@@ -197,12 +197,12 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.6.0",
-            "version_normalized": "0.6.0.0",
+            "version": "0.7.0-alpha.1712322407",
+            "version_normalized": "0.7.0.0-alpha1712322407",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "b8772c4cbbc6ed72a416ff952a3de2a9fcfa87a9"
+                "reference": "c8bd9af3573c3580c69fa7e2e1c28bad5f3a9253"
             },
             "require": {
                 "php": ">=7.0"
@@ -225,7 +225,7 @@
                 },
                 "autotagger": true,
                 "branch-alias": {
-                    "dev-trunk": "0.6.x-dev"
+                    "dev-trunk": "0.7.x-dev"
                 },
                 "textdomain": "jetpack-scheduled-updates",
                 "version-constants": {
