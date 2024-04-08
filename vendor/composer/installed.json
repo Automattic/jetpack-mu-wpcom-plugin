@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "b84800cbf615c9f2ba203d4cffa214bd415a873c"
+                "reference": "809f763ff8ee3d5f8cbaf66e4416876f27f28d7a"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "8c75d26d3fc7c52f69043ffd83ae9585eda88e19"
+                "reference": "8da1fbcc7a04ca84b994a489f8a4ed894dbd0be4"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,12 +125,12 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.23.2-alpha.1712340608",
-            "version_normalized": "5.23.2.0-alpha1712340608",
+            "version": "5.23.2-alpha.1712563319",
+            "version_normalized": "5.23.2.0-alpha1712563319",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "641653a0a72a069fb2e7dad36df18b667e43eb14"
+                "reference": "3d709c34c67b03f3324ab06f1e18c62fe43ed5ad"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.7-alpha",
@@ -202,14 +202,14 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "9dd453787576db05bc3fc8d748378f4446451f80"
+                "reference": "10bb8c77ae7911a3536a903cdc353978b85b2081"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^4.1.2",
-                "automattic/jetpack-plans": "^0.4.3",
+                "automattic/jetpack-plans": "^0.4.4-alpha",
                 "automattic/wordbless": "@dev",
                 "php-mock/php-mock-phpunit": "^2.10",
                 "yoast/phpunit-polyfills": "1.1.0"
