@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f2993c08187d0a2cc3cb09023be9ef6",
+    "content-hash": "088b1c4b68cf7f179b7cec278d6a0d71",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "63c6c6dceeea351a0826e31ef8a4c8c0671dbd88"
+                "reference": "d3bd4a6ba7a3682a3cfdd65d5a6a084d19f3de53"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "6265b0ef0f0b4309888300fa5ff25f492e90cc7d"
+                "reference": "f10e399b5dbee3aec9c529eba1a56e3671d67db0"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,11 +125,11 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.23.2-alpha.1712563319",
+            "version": "5.23.2-alpha.1712596734",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "352319d55998291929caa23278de703e132e395d"
+                "reference": "803128d1fdae273396e00a4f670f3b3ae3b088df"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.7",
@@ -198,7 +198,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "d7d6d4250fc773c7b1831f154eeec0dd23c87ff0"
+                "reference": "d36d5bff12eeab6da0c1ca435147774e0bc2fb8b"
             },
             "require": {
                 "php": ">=7.0"
@@ -263,7 +263,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "e37d095ee6c5ce22f7a1b72de6a3ed9a286fec0d"
+                "reference": "fb704fa04816cb105dc9ec9991dd3bfb3126abf0"
             },
             "require": {
                 "php": ">=7.0",
