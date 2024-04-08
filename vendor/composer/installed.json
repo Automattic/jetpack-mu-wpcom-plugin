@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "809f763ff8ee3d5f8cbaf66e4416876f27f28d7a"
+                "reference": "715dc27141fb32aba867d7882545e690a6824103"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "8da1fbcc7a04ca84b994a489f8a4ed894dbd0be4"
+                "reference": "23f1eef75a7007e9198515bbe11548379ebbac00"
             },
             "require": {
                 "php": ">=7.0"
@@ -130,11 +130,11 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "3d709c34c67b03f3324ab06f1e18c62fe43ed5ad"
+                "reference": "104946fc55c8c1494a5efb8aece3bfbc68b729ff"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.7-alpha",
-                "automattic/scheduled-updates": "^0.7.0",
+                "automattic/scheduled-updates": "^0.7.1-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
@@ -197,12 +197,12 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.7.0",
-            "version_normalized": "0.7.0.0",
+            "version": "0.7.1-alpha.1712575753",
+            "version_normalized": "0.7.1.0-alpha1712575753",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "10bb8c77ae7911a3536a903cdc353978b85b2081"
+                "reference": "dee73ade59cc006262b3730022e003f8fe66069d"
             },
             "require": {
                 "php": ">=7.0"
