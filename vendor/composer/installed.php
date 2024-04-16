@@ -13,7 +13,7 @@
         'automattic/jetpack-assets' => array(
             'pretty_version' => '2.1.8-alpha.1713286100',
             'version' => '2.1.8.0-alpha1713286100',
-            'reference' => 'aa8b65ccc92e5937e99021069e6e93a3d0e96d3a',
+            'reference' => 'dd228ea5a50533ba9c8a3eb20d09d550e59568a6',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-assets',
             'aliases' => array(),
@@ -22,16 +22,16 @@
         'automattic/jetpack-constants' => array(
             'pretty_version' => '2.0.1',
             'version' => '2.0.1.0',
-            'reference' => 'd568566d7f8f47d81b30e3b58de1ed9bbd6d0f10',
+            'reference' => '75ae1c3516e3bcaa9f4bf20e4b5f9fdc32d76b32',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-constants',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'automattic/jetpack-mu-wpcom' => array(
-            'pretty_version' => '5.24.1-alpha.1713286100',
-            'version' => '5.24.1.0-alpha1713286100',
-            'reference' => 'f1a5193c226bfbaa0779e80fc018d043abc6955c',
+            'pretty_version' => '5.24.1-alpha.1713295480',
+            'version' => '5.24.1.0-alpha1713295480',
+            'reference' => '754a4ad7b304f0c69efca480153f09a9b17f48d6',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-mu-wpcom',
             'aliases' => array(),
@@ -49,7 +49,7 @@
         'automattic/jetpack-status' => array(
             'pretty_version' => '2.2.2-alpha.1713286100',
             'version' => '2.2.2.0-alpha1713286100',
-            'reference' => 'cbad33da5597188cdd223851e09e543fcf36d792',
+            'reference' => 'c7558b38ab52e45d6c0651995d79e7cac011a65c',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-status',
             'aliases' => array(),
@@ -58,7 +58,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.8.0-alpha.1713282134',
             'version' => '0.8.0.0-alpha1713282134',
-            'reference' => '9a4439de8f22dad3cf3728efb4f0890bc9b27dd6',
+            'reference' => '5d089d6c705cc22af3efa5f5c0aa1967318a6a18',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/scheduled-updates',
             'aliases' => array(),
