@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aac5c9c6d3dfbebec223cd2d7e9905fb",
+    "content-hash": "65573cec3a4958e197868b9e658a750e",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "be8e9c74b0e64987d7d714f0f76bd3174530417e"
+                "reference": "79cb550c2f0df97ba53d55ed523d23fac42f900c"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "9dc1c1ca110225c0f5685e1efd65bcdd2c1953f0"
+                "reference": "b5d6a7f62b4e5bace83ba95932a76adb6c8fdd42"
             },
             "require": {
                 "php": ">=7.0"
@@ -129,7 +129,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "6699a760c287904ed96f3f78ed4c79bf2df9850e"
+                "reference": "895b8ab8e4d58229e234f849a1ecb15d80f1bb78"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.7",
@@ -198,14 +198,14 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "f8345cda6f74331a8f0f2ca41645b3e4bc61c820"
+                "reference": "2bc476f706f56de285292993b8d84a487c848db4"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^4.2.1",
-                "automattic/jetpack-plans": "^0.4.4",
+                "automattic/jetpack-plans": "^0.4.5-alpha",
                 "automattic/wordbless": "@dev",
                 "php-mock/php-mock-phpunit": "^2.10",
                 "yoast/phpunit-polyfills": "1.1.0"
@@ -263,7 +263,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "82beeedcf04a5c1f0f7619aaba6faf6113d99ccc"
+                "reference": "0d9af53ebbf1353b620a5b6a057444a80990f78f"
             },
             "require": {
                 "php": ">=7.0",
