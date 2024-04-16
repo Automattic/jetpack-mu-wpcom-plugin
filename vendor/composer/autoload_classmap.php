@@ -11,6 +11,7 @@ return array(
     'Automattic\\Jetpack\\Constants' => $vendorDir . '/automattic/jetpack-constants/src/class-constants.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/class-jetpack-mu-wpcom.php',
     'Automattic\\Jetpack\\Scheduled_Updates' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates.php',
+    'Automattic\\Jetpack\\Scheduled_Updates_Admin' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-admin.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Logs' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',
     'Automattic\\Jetpack\\Verbum_Admin' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-admin.php',
     'Automattic\\Jetpack\\Verbum_Comments' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
