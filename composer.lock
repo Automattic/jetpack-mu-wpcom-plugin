@@ -4,22 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2372be4f2eaacc5184a12d48acd3cfab",
+    "content-hash": "affea43e0d476103e93e53de101d308d",
     "packages": [
         {
             "name": "automattic/jetpack-assets",
-            "version": "2.1.7",
+            "version": "2.1.8-alpha.1713286100",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "ec0c7a8dd56a149eff9cadc62c9bd743b5d04a1a"
+                "reference": "a739285e6a14dacb652c2d283dd72765c33f0a6b"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.1",
+                "automattic/jetpack-changelogger": "^4.2.2-alpha",
                 "brain/monkey": "2.6.1",
                 "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
                 "yoast/phpunit-polyfills": "1.1.0"
@@ -78,13 +78,13 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "0b1f0bc3b570e24194423ada348920f8dc7bfe88"
+                "reference": "d1c925557c0b65fabd293dc5f953d2b1fbd26929"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.1",
+                "automattic/jetpack-changelogger": "^4.2.2-alpha",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -125,19 +125,20 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.24.0",
+            "version": "5.24.1-alpha.1713286100",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "8b581b8de707bbe88e7af627d4e44d7572864bdf"
+                "reference": "753a4bed9b20df8b2d4d07b35a0ccda7ec4cc437"
             },
             "require": {
-                "automattic/jetpack-assets": "^2.1.7",
+                "automattic/jetpack-assets": "^2.1.8-alpha",
+                "automattic/jetpack-status": "^2.2.2-alpha",
                 "automattic/scheduled-updates": "^0.8.0-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.1",
+                "automattic/jetpack-changelogger": "^4.2.2-alpha",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -193,18 +194,71 @@
             }
         },
         {
+            "name": "automattic/jetpack-status",
+            "version": "2.2.2-alpha.1713286100",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-status",
+                "reference": "8011ae24ec6e63da4d775287be2daac808616b49"
+            },
+            "require": {
+                "automattic/jetpack-constants": "^2.0.1",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^4.2.2-alpha",
+                "automattic/jetpack-ip": "^0.2.2",
+                "brain/monkey": "2.6.1",
+                "yoast/phpunit-polyfills": "1.1.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-status",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-status/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "2.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Used to retrieve information about the current status of Jetpack and the site overall.",
+            "transport-options": {
+                "relative": false
+            }
+        },
+        {
             "name": "automattic/scheduled-updates",
             "version": "0.8.0-alpha.1713282134",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "b22760f9974502965aaf348504f2d45da3f06689"
+                "reference": "d5b62b987291d49e79c4ded6814aa5fd42653964"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.1",
+                "automattic/jetpack-changelogger": "^4.2.2-alpha",
                 "automattic/jetpack-plans": "^0.4.5-alpha",
                 "automattic/wordbless": "@dev",
                 "php-mock/php-mock-phpunit": "^2.10",
@@ -259,11 +313,11 @@
     "packages-dev": [
         {
             "name": "automattic/jetpack-changelogger",
-            "version": "4.2.1",
+            "version": "4.2.2-alpha.1713286100",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-changelogger",
-                "reference": "761ab8a457b4cdb661d1e843edb475f36be83b32"
+                "reference": "180d8c6f054b769cd95468261a79bca6ab0d99a5"
             },
             "require": {
                 "php": ">=7.0",

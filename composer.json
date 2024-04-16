@@ -4,11 +4,11 @@
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-mu-wpcom": "^5.24.0"
+		"automattic/jetpack-mu-wpcom": "^5.24.1-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.1.0",
-		"automattic/jetpack-changelogger": "^4.2.1"
+		"automattic/jetpack-changelogger": "^4.2.2-alpha"
 	},
 	"autoload": {
 		"classmap": [
