@@ -13,7 +13,7 @@
         'automattic/jetpack-assets' => array(
             'pretty_version' => '2.1.8-alpha.1713286100',
             'version' => '2.1.8.0-alpha1713286100',
-            'reference' => '7c4da9eee0e5776b3eaa6e4acec84d572f78180c',
+            'reference' => '5a9601a5727e81c93b5d2948a157cbf723113949',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-assets',
             'aliases' => array(),
@@ -22,7 +22,7 @@
         'automattic/jetpack-constants' => array(
             'pretty_version' => '2.0.1',
             'version' => '2.0.1.0',
-            'reference' => 'bc84a70672fa912e1f37c3a6765d12f681755e02',
+            'reference' => 'ccfd3ed9ada966ab265b7624a31c80ca1a6210c4',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-constants',
             'aliases' => array(),
@@ -31,7 +31,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '5.25.0-alpha.1713764474',
             'version' => '5.25.0.0-alpha1713764474',
-            'reference' => 'aa37baaddb4a93b5b97c4b189040c75693ad7592',
+            'reference' => '05df0053948eda93fb964272e2471fe6a267dc4c',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-mu-wpcom',
             'aliases' => array(),
@@ -49,16 +49,16 @@
         'automattic/jetpack-status' => array(
             'pretty_version' => '2.2.2-alpha.1713536770',
             'version' => '2.2.2.0-alpha1713536770',
-            'reference' => 'a90beb83e7252096011069bd10a0b81fc9b11063',
+            'reference' => '997f5c96bd6a2e2a120f465ca20707acc6fd57d3',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-status',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'automattic/scheduled-updates' => array(
-            'pretty_version' => '0.8.0-alpha.1713536770',
-            'version' => '0.8.0.0-alpha1713536770',
-            'reference' => 'e664ead65cb92db387f9cabee85138d4d7a07ca3',
+            'pretty_version' => '0.8.0-alpha.1713808984',
+            'version' => '0.8.0.0-alpha1713808984',
+            'reference' => '6f147621c7dbb199f793f7e3608638f222ef6d19',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/scheduled-updates',
             'aliases' => array(),
