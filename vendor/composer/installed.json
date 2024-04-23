@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "e88727339752f5cde27bfc7729cde7bb6e3cae02"
+                "reference": "beffd6bf497d9d4faa53690347857e5ba552fa23"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -76,7 +76,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "1cea1f95edc06a883d4bf62508e3c89b83ba0eed"
+                "reference": "6046638d0940c5fbe3e8a94fcce5bf09828bff13"
             },
             "require": {
                 "php": ">=7.0"
@@ -125,12 +125,12 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.25.0",
-            "version_normalized": "5.25.0.0",
+            "version": "5.26.0-alpha.1713889469",
+            "version_normalized": "5.26.0.0-alpha1713889469",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "53bac56dfa764d4f4386ae1f1f050f6a16fb3e1a"
+                "reference": "484e435858d89ffb92b6e84caf9e2eb7140a54b3"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.8",
@@ -154,7 +154,7 @@
                 },
                 "autotagger": true,
                 "branch-alias": {
-                    "dev-trunk": "5.25.x-dev"
+                    "dev-trunk": "5.26.x-dev"
                 },
                 "textdomain": "jetpack-mu-wpcom",
                 "version-constants": {
@@ -203,7 +203,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-status",
-                "reference": "d362131f081366b201e83ef75bffc6e8a12463b5"
+                "reference": "588010c300e44462ad9752d9a858d6406673d2ac"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.1",
@@ -259,7 +259,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "5034718a2c602a72457fed69f3d191df866f6a8a"
+                "reference": "64de6fef32587327a33ef0ee13c4023ee43f6605"
             },
             "require": {
                 "php": ">=7.0"
