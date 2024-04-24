@@ -13,7 +13,7 @@
         'automattic/jetpack-assets' => array(
             'pretty_version' => '2.1.8',
             'version' => '2.1.8.0',
-            'reference' => '23d53ce33daf62c172c3d478146b5a47654a2aa5',
+            'reference' => '7f240fa922849122a7a8efdec3b1a6fd8265a811',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-assets',
             'aliases' => array(),
@@ -22,16 +22,16 @@
         'automattic/jetpack-constants' => array(
             'pretty_version' => '2.0.1',
             'version' => '2.0.1.0',
-            'reference' => '8e0e196c5efd8085f36e44fc350078e1fcddd1be',
+            'reference' => 'f24aecdeeb416eadc04c0ec1d1183e5e5b2c8771',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-constants',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'automattic/jetpack-mu-wpcom' => array(
-            'pretty_version' => '5.26.0-alpha.1713948449',
-            'version' => '5.26.0.0-alpha1713948449',
-            'reference' => '081af78a7e3ead73501dbe8870ba4cd5999376d8',
+            'pretty_version' => '5.26.0-alpha.1713957728',
+            'version' => '5.26.0.0-alpha1713957728',
+            'reference' => '28c99cf5f7aeaf448080331ebed49c9c671b1f30',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-mu-wpcom',
             'aliases' => array(),
@@ -49,7 +49,7 @@
         'automattic/jetpack-status' => array(
             'pretty_version' => '3.0.0-alpha.1713885438',
             'version' => '3.0.0.0-alpha1713885438',
-            'reference' => '307d986a95914c81ebf7c794a3cbde4af30813b0',
+            'reference' => '76801007f5395bf1fda52588dceb61994a625b66',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-status',
             'aliases' => array(),
@@ -58,7 +58,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.9.0-alpha.1713885438',
             'version' => '0.9.0.0-alpha1713885438',
-            'reference' => '6b9a8a768818aed9f346c3374022529dda668137',
+            'reference' => '2a52b01e80b1cff9d79056616791e04c96a48b7b',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/scheduled-updates',
             'aliases' => array(),
