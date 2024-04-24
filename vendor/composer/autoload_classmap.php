@@ -17,6 +17,7 @@ return array(
     'Automattic\\Jetpack\\Paths' => $vendorDir . '/automattic/jetpack-status/src/class-paths.php',
     'Automattic\\Jetpack\\Scheduled_Updates' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Admin' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-admin.php',
+    'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Logs' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',
     'Automattic\\Jetpack\\Status' => $vendorDir . '/automattic/jetpack-status/src/class-status.php',
     'Automattic\\Jetpack\\Status\\Cache' => $vendorDir . '/automattic/jetpack-status/src/class-cache.php',
