@@ -61,6 +61,7 @@ return array(
     'Automattic\\Jetpack\\Redirect' => $vendorDir . '/automattic/jetpack-redirect/src/class-redirect.php',
     'Automattic\\Jetpack\\Roles' => $vendorDir . '/automattic/jetpack-roles/src/class-roles.php',
     'Automattic\\Jetpack\\Scheduled_Updates' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates.php',
+    'Automattic\\Jetpack\\Scheduled_Updates_Active' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-active.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Admin' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-admin.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Logs' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',

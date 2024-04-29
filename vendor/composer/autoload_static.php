@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_1_19
+class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_1_20_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/..' . '/automattic/jetpack-assets/actions.php',
@@ -66,6 +66,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Redirect' => __DIR__ . '/..' . '/automattic/jetpack-redirect/src/class-redirect.php',
         'Automattic\\Jetpack\\Roles' => __DIR__ . '/..' . '/automattic/jetpack-roles/src/class-roles.php',
         'Automattic\\Jetpack\\Scheduled_Updates' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates.php',
+        'Automattic\\Jetpack\\Scheduled_Updates_Active' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates-active.php',
         'Automattic\\Jetpack\\Scheduled_Updates_Admin' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates-admin.php',
         'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php',
         'Automattic\\Jetpack\\Scheduled_Updates_Logs' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',
@@ -117,7 +118,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_1_19::$classMap;
+            $loader->classMap = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_1_20_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }
