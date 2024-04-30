@@ -12,6 +12,7 @@ return array(
     'Automattic\\Jetpack\\Assets\\Logo' => $vendorDir . '/automattic/jetpack-logo/src/class-logo.php',
     'Automattic\\Jetpack\\Assets\\Semver' => $vendorDir . '/automattic/jetpack-assets/src/class-semver.php',
     'Automattic\\Jetpack\\Blocks' => $vendorDir . '/automattic/jetpack-blocks/src/class-blocks.php',
+    'Automattic\\Jetpack\\Connection\\Authorize_Json_Api' => $vendorDir . '/automattic/jetpack-connection/src/class-authorize-json-api.php',
     'Automattic\\Jetpack\\Connection\\Client' => $vendorDir . '/automattic/jetpack-connection/src/class-client.php',
     'Automattic\\Jetpack\\Connection\\Connection_Notice' => $vendorDir . '/automattic/jetpack-connection/src/class-connection-notice.php',
     'Automattic\\Jetpack\\Connection\\Error_Handler' => $vendorDir . '/automattic/jetpack-connection/src/class-error-handler.php',
