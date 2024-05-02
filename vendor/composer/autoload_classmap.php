@@ -168,6 +168,7 @@ return array(
     'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
     'WPCOM_REST_API_V2_Endpoint_Site_Migration_Migrate_Guru_Key' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-migrate-guru-key.php',
     'WPCOM_REST_API_V2_Endpoint_Update_Schedules' => $vendorDir . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules.php',
+    'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Active' => $vendorDir . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-active.php',
     'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Capabilities' => $vendorDir . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-capabilities.php',
     'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Logs' => $vendorDir . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-logs.php',
     'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Status' => $vendorDir . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-status.php',
