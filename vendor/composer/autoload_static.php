@@ -176,7 +176,6 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Active' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-active.php',
         'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Capabilities' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-capabilities.php',
         'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Logs' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-logs.php',
-        'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Status' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-status.php',
         'WPCOM_REST_API_V2_Verbum_Auth' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-auth.php',
         'WPCOM_REST_API_V2_Verbum_OEmbed' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-oembed.php',
         'Wpcom_Block_Patterns_From_Api' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-from-api.php',
