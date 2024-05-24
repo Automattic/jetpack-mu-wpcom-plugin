@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Classic theme helper: Add responsive videos.
+- Classic Theme Helper: Copied featured content js script from module
 
 ## 0.1.0 - 2024-05-09
 ### Added
