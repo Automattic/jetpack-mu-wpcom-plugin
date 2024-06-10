@@ -68,6 +68,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\JITMS\\Pre_Connection_JITM' => __DIR__ . '/..' . '/automattic/jetpack-jitm/src/class-pre-connection-jitm.php',
         'Automattic\\Jetpack\\JITMS\\Rest_Api_Endpoints' => __DIR__ . '/..' . '/automattic/jetpack-jitm/src/class-rest-api-endpoints.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/class-jetpack-mu-wpcom.php',
+        'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
         'Automattic\\Jetpack\\Modules' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-modules.php',
         'Automattic\\Jetpack\\Partner' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-partner.php',
         'Automattic\\Jetpack\\Partner_Coupon' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-partner-coupon.php',

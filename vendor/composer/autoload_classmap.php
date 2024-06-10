@@ -63,6 +63,7 @@ return array(
     'Automattic\\Jetpack\\JITMS\\Pre_Connection_JITM' => $vendorDir . '/automattic/jetpack-jitm/src/class-pre-connection-jitm.php',
     'Automattic\\Jetpack\\JITMS\\Rest_Api_Endpoints' => $vendorDir . '/automattic/jetpack-jitm/src/class-rest-api-endpoints.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/class-jetpack-mu-wpcom.php',
+    'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
     'Automattic\\Jetpack\\Modules' => $vendorDir . '/automattic/jetpack-status/src/class-modules.php',
     'Automattic\\Jetpack\\Partner' => $vendorDir . '/automattic/jetpack-connection/src/class-partner.php',
     'Automattic\\Jetpack\\Partner_Coupon' => $vendorDir . '/automattic/jetpack-connection/src/class-partner-coupon.php',
