@@ -1,0 +1,70 @@
+{
+	"name": "automattic/jetpack-blaze",
+	"description": "Attract high-quality traffic to your site using Blaze.",
+	"type": "jetpack-library",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=7.0",
+		"automattic/jetpack-assets": "^2.1.12",
+		"automattic/jetpack-connection": "^2.10.1",
+		"automattic/jetpack-constants": "^2.0.3",
+		"automattic/jetpack-plans": "^0.4.7",
+		"automattic/jetpack-redirect": "^2.0.2",
+		"automattic/jetpack-status": "^3.3.0",
+		"automattic/jetpack-sync": "^3.1.1"
+	},
+	"require-dev": {
+		"yoast/phpunit-polyfills": "1.1.0",
+		"automattic/jetpack-changelogger": "^4.2.4",
+		"automattic/wordbless": "@dev"
+	},
+	"suggest": {
+		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+	},
+	"autoload": {
+		"classmap": [
+			"src/"
+		]
+	},
+	"scripts": {
+		"phpunit": [
+			"./vendor/phpunit/phpunit/phpunit --colors=always"
+		],
+		"test-php": [
+			"@composer phpunit"
+		],
+		"build-production": [
+			"pnpm run build-production"
+		],
+		"build-development": [
+			"pnpm run build"
+		],
+		"watch": [
+			"Composer\\Config::disableProcessTimeout",
+			"pnpm run watch"
+		],
+		"post-install-cmd": "WorDBless\\Composer\\InstallDropin::copy",
+		"post-update-cmd": "WorDBless\\Composer\\InstallDropin::copy"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"autotagger": true,
+		"mirror-repo": "Automattic/jetpack-blaze",
+		"changelogger": {
+			"link-template": "https://github.com/automattic/jetpack-blaze/compare/v${old}...v${new}"
+		},
+		"branch-alias": {
+			"dev-trunk": "0.21.x-dev"
+		},
+		"textdomain": "jetpack-blaze",
+		"version-constants": {
+			"::PACKAGE_VERSION": "src/class-dashboard.php"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"roots/wordpress-core-installer": true
+		}
+	}
+}
