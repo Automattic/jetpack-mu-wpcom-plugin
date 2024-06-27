@@ -18,7 +18,7 @@
 	"require-dev": {
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "1.1.0",
-		"automattic/jetpack-changelogger": "^4.2.5-alpha",
+		"automattic/jetpack-changelogger": "^4.2.5",
 		"automattic/patchwork-redefine-exit": "^1.0.0",
 		"automattic/wordbless": "dev-master"
 	},
