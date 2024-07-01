@@ -6,11 +6,11 @@
 	"require": {
 		"php": ">=7.0",
 		"automattic/jetpack-assets": "^2.1.12",
-		"automattic/jetpack-status": "^3.3.2"
+		"automattic/jetpack-status": "^3.2.3"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.1.0",
-		"automattic/jetpack-changelogger": "^4.2.5"
+		"automattic/jetpack-changelogger": "^4.2.4"
 	},
 	"autoload": {
 		"classmap": [
