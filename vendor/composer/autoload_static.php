@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_1
+class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_2_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/..' . '/automattic/jetpack-assets/actions.php',
@@ -228,6 +228,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Verbum_Admin' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-admin.php',
         'Automattic\\Jetpack\\Verbum_Comments' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Global_Styles_Status_Rest_API' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php',
         'Jetpack_Custom_CSS_Enhancements' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php',
         'Jetpack_IXR_Client' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
         'Jetpack_IXR_ClientMulticall' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
@@ -318,9 +319,9 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_1::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_1::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_1::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_2_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_2_alpha::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_pluginⓥ2_4_2_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }

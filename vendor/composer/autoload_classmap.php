@@ -209,6 +209,7 @@ return array(
     'Automattic\\Jetpack\\Verbum_Admin' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-admin.php',
     'Automattic\\Jetpack\\Verbum_Comments' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Global_Styles_Status_Rest_API' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php',
     'Jetpack_Custom_CSS_Enhancements' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php',
     'Jetpack_IXR_Client' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
     'Jetpack_IXR_ClientMulticall' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
