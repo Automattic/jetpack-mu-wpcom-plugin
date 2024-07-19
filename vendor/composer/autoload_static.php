@@ -115,6 +115,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Global_Styles' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/class-global-styles.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Global_Styles_Fonts_Message_Control' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/class-global-styles-fonts-message-control.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\JSON_Endpoint' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-json-endpoint.php',
+        'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Admin_Bar' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-admin-bar/class-wpcom-admin-bar.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
         'Automattic\\Jetpack\\Masterbar\\Admin_Color_Schemes' => __DIR__ . '/..' . '/automattic/jetpack-masterbar/src/admin-color-schemes/class-admin-color-schemes.php',
         'Automattic\\Jetpack\\Masterbar\\Admin_Menu' => __DIR__ . '/..' . '/automattic/jetpack-masterbar/src/admin-menu/class-admin-menu.php',
