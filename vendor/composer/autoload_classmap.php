@@ -287,6 +287,7 @@ return array(
     'ScssPhp\\ScssPhp\\Warn' => $vendorDir . '/scssphp/scssphp/src/Warn.php',
     'Verbum_Block_Utils' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
     'Verbum_Gutenberg_Editor' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
+    'WPCOM_Enqueue_Dynamic_Script' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/common/wpcom-enqueue-dynamic-script/class-wpcom-enqueue-dynamic-script.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
     'WPCOM_REST_API_V2_Endpoint_Site_Migration_Migrate_Guru_Key' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-migrate-guru-key.php',
