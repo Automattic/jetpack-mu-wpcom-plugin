@@ -5,21 +5,21 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.3.3",
-		"automattic/jetpack-blaze": "^0.22.6",
+		"automattic/jetpack-assets": "^2.3.4-alpha",
+		"automattic/jetpack-blaze": "^0.22.7-alpha",
 		"automattic/jetpack-compat": "^3.0.2",
-		"automattic/jetpack-device-detection": "^2.1.3",
-		"automattic/jetpack-connection": "^2.12.3",
-		"automattic/jetpack-jitm": "^3.1.17",
-		"automattic/jetpack-logo": "^2.0.3",
-		"automattic/jetpack-plans": "^0.4.7",
-		"automattic/jetpack-status": "^3.3.3"
+		"automattic/jetpack-device-detection": "^2.1.4-alpha",
+		"automattic/jetpack-connection": "^2.12.4-alpha",
+		"automattic/jetpack-jitm": "^3.1.18-alpha",
+		"automattic/jetpack-logo": "^2.0.4-alpha",
+		"automattic/jetpack-plans": "^0.4.8-alpha",
+		"automattic/jetpack-status": "^3.3.4-alpha"
 	},
 	"require-dev": {
 		"brain/monkey": "2.6.1",
-		"yoast/phpunit-polyfills": "1.1.0",
-		"automattic/jetpack-changelogger": "^4.2.5",
-		"automattic/patchwork-redefine-exit": "^1.0.0",
+		"yoast/phpunit-polyfills": "^1.1.1",
+		"automattic/jetpack-changelogger": "^4.2.6-alpha",
+		"automattic/patchwork-redefine-exit": "^1.0.1-alpha",
 		"automattic/wordbless": "dev-master"
 	},
 	"autoload": {
