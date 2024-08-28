@@ -224,6 +224,7 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Global_Styles_Status_Rest_API' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php',
     'Jetpack_Custom_CSS_Enhancements' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php',
+    'Jetpack_Customize_Control_Title' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/content-options/customizer.php',
     'Jetpack_IXR_Client' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
     'Jetpack_IXR_ClientMulticall' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
     'Jetpack_Options' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-options.php',

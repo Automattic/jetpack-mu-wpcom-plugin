@@ -243,6 +243,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Global_Styles_Status_Rest_API' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php',
         'Jetpack_Custom_CSS_Enhancements' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php',
+        'Jetpack_Customize_Control_Title' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/content-options/customizer.php',
         'Jetpack_IXR_Client' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
         'Jetpack_IXR_ClientMulticall' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
         'Jetpack_Options' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-options.php',
