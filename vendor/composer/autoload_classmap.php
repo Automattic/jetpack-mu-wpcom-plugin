@@ -39,6 +39,7 @@ return array(
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/class-social-links.php',
     'Automattic\\Jetpack\\Connection\\Authorize_Json_Api' => $vendorDir . '/automattic/jetpack-connection/src/class-authorize-json-api.php',
     'Automattic\\Jetpack\\Connection\\Client' => $vendorDir . '/automattic/jetpack-connection/src/class-client.php',
+    'Automattic\\Jetpack\\Connection\\Connection_Assets' => $vendorDir . '/automattic/jetpack-connection/src/class-connection-assets.php',
     'Automattic\\Jetpack\\Connection\\Connection_Notice' => $vendorDir . '/automattic/jetpack-connection/src/class-connection-notice.php',
     'Automattic\\Jetpack\\Connection\\Error_Handler' => $vendorDir . '/automattic/jetpack-connection/src/class-error-handler.php',
     'Automattic\\Jetpack\\Connection\\Initial_State' => $vendorDir . '/automattic/jetpack-connection/src/class-initial-state.php',
