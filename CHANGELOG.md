@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Portfolios: Ensure these are enabled and working properly on themes that support portfolios
+
 ## 2.5.11 - 2024-09-02
 ### Changed
 - Internal updates.
