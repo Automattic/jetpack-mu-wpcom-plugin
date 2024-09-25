@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA
 - Updated package dependencies.
 
 ### Removed
