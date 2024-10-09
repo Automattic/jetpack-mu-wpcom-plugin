@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Portfolios: Ensure these are enabled and working properly on themes that support portfolios
+- Stats: Fix top post card on the Insight page
 
 ## 2.5.11 - 2024-09-02
 ### Changed
