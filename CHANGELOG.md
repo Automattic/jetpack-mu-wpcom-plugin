@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA
+- Only include `wp-polyfill` as a script dependency when needed.
 - Updated package dependencies.
 - Update Jetpack Scan link
 
