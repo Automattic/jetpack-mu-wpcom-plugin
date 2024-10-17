@@ -238,7 +238,7 @@
         'automattic/jetpack-sync' => array(
             'pretty_version' => '3.14.2',
             'version' => '3.14.2.0',
-            'reference' => 'dcbb9272cf0990f3a217c4ad1fc56c3d7ea0acc3',
+            'reference' => '9de30d49475db4cff167918f9962294f906be7e2',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-sync',
             'aliases' => array(),
