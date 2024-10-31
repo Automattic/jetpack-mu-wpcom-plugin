@@ -37,6 +37,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'A8C\\FSE\\WP_REST_Help_Center_Search' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-search.php',
         'A8C\\FSE\\WP_REST_Help_Center_Sibyl' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-sibyl.php',
         'A8C\\FSE\\WP_REST_Help_Center_Support_Activity' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-activity.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Support_Interactions' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-interactions.php',
         'A8C\\FSE\\WP_REST_Help_Center_Support_Status' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-status.php',
         'A8C\\FSE\\WP_REST_Help_Center_Ticket' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket.php',
         'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php',
