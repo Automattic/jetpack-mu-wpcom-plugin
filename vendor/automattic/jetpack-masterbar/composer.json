@@ -5,21 +5,21 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.3.12",
-		"automattic/jetpack-blaze": "^0.23.2",
+		"automattic/jetpack-assets": "^2.3.13-alpha",
+		"automattic/jetpack-blaze": "^0.23.3-alpha",
 		"automattic/jetpack-compat": "^3.0.2",
-		"automattic/jetpack-device-detection": "^2.1.5",
-		"automattic/jetpack-connection": "^5.1.5",
-		"automattic/jetpack-jitm": "^3.1.27",
-		"automattic/jetpack-logo": "^2.0.4",
-		"automattic/jetpack-plans": "^0.4.12",
-		"automattic/jetpack-status": "^4.0.2"
+		"automattic/jetpack-device-detection": "^2.1.6-alpha",
+		"automattic/jetpack-connection": "^5.1.6-alpha",
+		"automattic/jetpack-jitm": "^3.1.28-alpha",
+		"automattic/jetpack-logo": "^2.0.5-alpha",
+		"automattic/jetpack-plans": "^0.4.13-alpha",
+		"automattic/jetpack-status": "^4.0.3-alpha"
 	},
 	"require-dev": {
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.7",
-		"automattic/patchwork-redefine-exit": "^1.0.1",
+		"automattic/jetpack-changelogger": "^4.2.8-alpha",
+		"automattic/patchwork-redefine-exit": "^1.0.2-alpha",
 		"automattic/wordbless": "dev-master"
 	},
 	"autoload": {
@@ -39,6 +39,10 @@
 		],
 		"post-install-cmd": "WorDBless\\Composer\\InstallDropin::copy",
 		"post-update-cmd": "WorDBless\\Composer\\InstallDropin::copy",
+		"test-coverage": [
+			"pnpm run build-production",
+			"php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+		],
 		"test-php": [
 			"pnpm run build-production",
 			"@composer phpunit"
