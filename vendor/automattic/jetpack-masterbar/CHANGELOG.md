@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Enable test coverage.
 
+### Fixed
+- Fix PHPUnit coverage warnings.
+
 ## [0.9.7] - 2024-10-28
 ### Changed
 - Updated package dependencies. [#39910]
