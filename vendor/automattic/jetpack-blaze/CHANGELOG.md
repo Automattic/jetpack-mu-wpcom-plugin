@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Adds /stats endpoints to the whitelist
 
+### Changed
+- Updated package dependencies.
+
 ## [0.23.3] - 2024-11-04
 ### Added
 - Enable test coverage. [#39961]
