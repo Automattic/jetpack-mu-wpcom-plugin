@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Enable test coverage.
 
+### Changed
+- Updated package dependencies.
+
 ## [0.1.8] - 2024-10-29
 ### Changed
 - Internal updates.
