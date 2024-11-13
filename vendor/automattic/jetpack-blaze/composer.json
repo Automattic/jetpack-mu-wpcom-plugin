@@ -4,18 +4,18 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.3.14",
-		"automattic/jetpack-connection": "^5.1.7",
-		"automattic/jetpack-constants": "^2.0.5",
-		"automattic/jetpack-plans": "^0.4.13",
-		"automattic/jetpack-redirect": "^2.0.5",
-		"automattic/jetpack-status": "^4.0.3",
-		"automattic/jetpack-sync": "^3.15.1-alpha"
+		"php": ">=7.2",
+		"automattic/jetpack-assets": "^3.0.0-alpha",
+		"automattic/jetpack-connection": "^6.0.0-alpha",
+		"automattic/jetpack-constants": "^3.0.0-alpha",
+		"automattic/jetpack-plans": "^0.5.0-alpha",
+		"automattic/jetpack-redirect": "^3.0.0-alpha",
+		"automattic/jetpack-status": "^5.0.0-alpha",
+		"automattic/jetpack-sync": "^4.0.0-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.8",
+		"automattic/jetpack-changelogger": "^5.0.0-alpha",
 		"automattic/wordbless": "@dev"
 	},
 	"suggest": {
@@ -58,7 +58,7 @@
 			"link-template": "https://github.com/automattic/jetpack-blaze/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "0.24.x-dev"
+			"dev-trunk": "0.25.x-dev"
 		},
 		"textdomain": "jetpack-blaze",
 		"version-constants": {

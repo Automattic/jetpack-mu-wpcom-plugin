@@ -4,22 +4,22 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.3.14",
-		"automattic/jetpack-blaze": "^0.24.0",
-		"automattic/jetpack-compat": "^3.0.2",
-		"automattic/jetpack-device-detection": "^2.1.6",
-		"automattic/jetpack-connection": "^5.1.7",
-		"automattic/jetpack-jitm": "^3.1.29",
-		"automattic/jetpack-logo": "^2.0.5",
-		"automattic/jetpack-plans": "^0.4.13",
-		"automattic/jetpack-status": "^4.0.3"
+		"php": ">=7.2",
+		"automattic/jetpack-assets": "^3.0.0-alpha",
+		"automattic/jetpack-blaze": "^0.25.0-alpha",
+		"automattic/jetpack-compat": "^4.0.0-alpha",
+		"automattic/jetpack-device-detection": "^3.0.0-alpha",
+		"automattic/jetpack-connection": "^6.0.0-alpha",
+		"automattic/jetpack-jitm": "^4.0.0-alpha",
+		"automattic/jetpack-logo": "^3.0.0-alpha",
+		"automattic/jetpack-plans": "^0.5.0-alpha",
+		"automattic/jetpack-status": "^5.0.0-alpha"
 	},
 	"require-dev": {
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.8",
-		"automattic/patchwork-redefine-exit": "^1.0.2",
+		"automattic/jetpack-changelogger": "^5.0.0-alpha",
+		"automattic/patchwork-redefine-exit": "^2.0.0-alpha",
 		"automattic/wordbless": "dev-master"
 	},
 	"autoload": {
@@ -58,7 +58,7 @@
 	"extra": {
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.9.x-dev"
+			"dev-trunk": "0.10.x-dev"
 		},
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-masterbar/compare/v${old}...v${new}"
