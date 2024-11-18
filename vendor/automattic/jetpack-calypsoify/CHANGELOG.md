@@ -25,13 +25,11 @@ This is an alpha version! The changes listed here are not final.
 
 ## [0.1.7] - 2024-10-29
 ### Changed
-- Updated package dependencies. [#39594]
-- Updated package dependencies. [#39707]
+- Updated package dependencies. [#39594] [#39707]
 
 ## [0.1.6] - 2024-09-10
 ### Changed
-- Updated package dependencies. [#39176]
-- Updated package dependencies. [#39302]
+- Updated package dependencies. [#39176] [#39302]
 
 ## [0.1.5] - 2024-08-30
 ### Changed
