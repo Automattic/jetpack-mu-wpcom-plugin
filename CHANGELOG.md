@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated dependencies.
 - Updated package dependencies.
 
+### Fixed
+- Global Styles: Stop showing the limited global styles notice in distraction free mode.
+
 ## 2.6.1 - 2024-11-11
 ### Changed
 - Internal updates.
