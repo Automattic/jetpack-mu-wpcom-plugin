@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Global Styles: Stop showing the limited global styles notice in distraction free mode.
+- Testimonials: fix a shortcode related bug which ccurs if the column attribute is added and set to 0
 
 ## 2.6.1 - 2024-11-11
 ### Changed
