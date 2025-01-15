@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Import Media: Introduce the Import Media page
 
 ### Changed
+- update composer.lock files
 - Updated package dependencies.
 
 ## 2.7.0 - 2025-01-10
