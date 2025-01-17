@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Import Media: Introduce the Import Media page
 
 ### Changed
+- Admin Bar: Point the Edit Site menu item to /site-editor.php
 - update composer.lock files
 - Updated package dependencies.
 
