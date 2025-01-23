@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - update composer.lock files
 - Updated package dependencies.
 
+### Fixed
+- MU WPCOM: Don't load ETK on agency sites on all pages
+
 ## 2.7.0 - 2025-01-10
 ### Added
 - WordPress.com Features: Add Holiday Snow functionality. [#40478]
