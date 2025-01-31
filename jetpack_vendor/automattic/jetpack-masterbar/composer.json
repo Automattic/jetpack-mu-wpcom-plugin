@@ -12,7 +12,7 @@
 		"automattic/jetpack-connection": "^6.3.2-alpha",
 		"automattic/jetpack-jitm": "^4.0.5-alpha",
 		"automattic/jetpack-logo": "^3.0.0",
-		"automattic/jetpack-plans": "^0.5.1",
+		"automattic/jetpack-plans": "^0.5.2-alpha",
 		"automattic/jetpack-status": "^5.0.2"
 	},
 	"require-dev": {
@@ -20,7 +20,7 @@
 		"yoast/phpunit-polyfills": "^1.1.1",
 		"automattic/jetpack-changelogger": "^5.1.0",
 		"automattic/patchwork-redefine-exit": "^2.0.2",
-		"automattic/wordbless": "^0.4.2"
+		"automattic/jetpack-test-environment": "@dev"
 	},
 	"autoload": {
 		"classmap": [
@@ -37,8 +37,6 @@
 		"phpunit": [
 			"./vendor/phpunit/phpunit/phpunit --colors=always"
 		],
-		"post-install-cmd": "WorDBless\\Composer\\InstallDropin::copy",
-		"post-update-cmd": "WorDBless\\Composer\\InstallDropin::copy",
 		"test-coverage": [
 			"pnpm run build-production",
 			"php -dpcov.directory=. ./vendor/bin/phpunit --coverage-php \"$COVERAGE_DIR/php.cov\""
