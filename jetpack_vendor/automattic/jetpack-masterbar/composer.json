@@ -13,7 +13,7 @@
 		"automattic/jetpack-jitm": "^4.0.5-alpha",
 		"automattic/jetpack-logo": "^3.0.0",
 		"automattic/jetpack-plans": "^0.5.2-alpha",
-		"automattic/jetpack-status": "^5.0.2"
+		"automattic/jetpack-status": "^5.0.3-alpha"
 	},
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
