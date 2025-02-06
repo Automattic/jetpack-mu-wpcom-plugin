@@ -23,6 +23,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use `Automattic/jetpack-composer-plugin` so jetpack-library packages will be installed in a place where `wp i18n` will see them.
 
+### Removed
+- Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
+
 ### Fixed
 - MU WPCOM: Don't load ETK on agency sites on all pages
 
