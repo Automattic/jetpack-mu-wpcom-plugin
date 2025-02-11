@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: add site preview and links
 - Import Media: Introduce the Import Media page
 - Media Library: Support Upload from URL on media-new page
+- Untangle Calypso Media Page: Enable the feature
 
 ### Changed
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
