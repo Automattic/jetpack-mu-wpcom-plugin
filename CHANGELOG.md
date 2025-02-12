@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
 ### Fixed
+- Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
 
 ## 2.7.0 - 2025-01-10
