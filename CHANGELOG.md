@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
 - update composer.lock files
 - Updated package dependencies.
+- Update Site Settings Link's Copy
 - Use `Automattic/jetpack-composer-plugin` so jetpack-library packages will be installed in a place where `wp i18n` will see them.
 
 ### Removed
