@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: add site preview and links
 - Import Media: Introduce the Import Media page
 - Media Library: Support Upload from URL on media-new page
+- Theme tools: Load theme compat functionality relevant to features in Classic Theme Helper package, from this package.
 - Untangle Calypso Media Page: Enable the feature
 
 ### Changed
