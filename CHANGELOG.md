@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
 - Connection: Display connection status on Users page independent of the SSO module.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
+- Hide verify email launchpad task for "existing users"
 - update composer.lock files
 - Updated package dependencies.
 - Update Site Settings Link's Copy
