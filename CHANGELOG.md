@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Use `Automattic/jetpack-composer-plugin` so jetpack-library packages will be installed in a place where `wp i18n` will see them.
 
 ### Removed
+- Removed the `Personalize Link in Bio` launchpad task, since the link in bio related flow is now deprecated
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
 ### Fixed
