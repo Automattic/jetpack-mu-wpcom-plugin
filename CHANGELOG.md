@@ -30,7 +30,6 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Display connection status on Users page independent of the SSO module.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
 - Hide verify email launchpad task for "existing users"
-- MU WPCOM: Prevent site owner from editing user's account-level fields
 - update composer.lock files
 - Updated package dependencies.
 - Update Site Settings Link's Copy
