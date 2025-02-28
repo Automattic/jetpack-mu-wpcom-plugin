@@ -41,7 +41,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Avoid opening Fiverr link when hitting Enter
-- i18n: fix missing script translations
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - MU WPCOM: Filter out the full-site-editing plugin from the active_plugins list if the plugin file doesn't exist
