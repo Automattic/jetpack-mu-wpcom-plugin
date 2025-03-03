@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Hide verify email launchpad task for "existing users"
 - update composer.lock files
 - Updated package dependencies.
+- Update package dependencies.
 - Update Site Settings Link's Copy
 - Use `Automattic/jetpack-composer-plugin` so jetpack-library packages will be installed in a place where `wp i18n` will see them.
 
