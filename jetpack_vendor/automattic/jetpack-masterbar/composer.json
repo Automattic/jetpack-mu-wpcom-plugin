@@ -6,10 +6,10 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-assets": "^4.0.10",
-		"automattic/jetpack-blaze": "^0.25.13-alpha",
+		"automattic/jetpack-blaze": "^0.25.13",
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-device-detection": "^3.0.2",
-		"automattic/jetpack-connection": "^6.7.3-alpha",
+		"automattic/jetpack-connection": "^6.7.3",
 		"automattic/jetpack-jitm": "^4.2.1",
 		"automattic/jetpack-logo": "^3.0.2",
 		"automattic/jetpack-plans": "^0.5.4",
@@ -19,7 +19,7 @@
 		"brain/monkey": "^2.6.2",
 		"yoast/phpunit-polyfills": "^1.1.1",
 		"automattic/jetpack-changelogger": "^6.0.0",
-		"automattic/patchwork-redefine-exit": "^2.0.4-alpha",
+		"automattic/patchwork-redefine-exit": "^2.0.4",
 		"automattic/jetpack-test-environment": "@dev"
 	},
 	"autoload": {
