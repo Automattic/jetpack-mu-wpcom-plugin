@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Removed the `Personalize Link in Bio` launchpad task, since the link in bio related flow is now deprecated
+- Start page pattern modal: Removed start page pattern modal. We will default to core behaviour from now on, which has equivalent functionality.
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
 ### Fixed
