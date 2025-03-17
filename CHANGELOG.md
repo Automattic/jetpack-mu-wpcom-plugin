@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Add create-course-goal intent task list
 - Media Library: Support Upload from URL on media-new page
 - Newsletter Dashboard Widget: remove feature flag and enable widget
+- Subscribers in wp admin
 - Theme tools: Load theme compat functionality relevant to features in Classic Theme Helper package, from this package.
 - Untangle Calypso Media Page: Enable the feature
 
