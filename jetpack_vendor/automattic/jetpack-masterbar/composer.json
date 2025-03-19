@@ -5,24 +5,24 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-assets": "^4.0.13",
+		"automattic/jetpack-assets": "^4.0.14-alpha",
 		"automattic/jetpack-blaze": "^0.25.17-alpha",
 		"automattic/jetpack-compat": "^4.0.1",
-		"automattic/jetpack-device-detection": "^3.0.4",
-		"automattic/jetpack-connection": "^6.7.6",
-		"automattic/jetpack-jitm": "^4.2.5",
-		"automattic/jetpack-logo": "^3.0.3",
-		"automattic/jetpack-plans": "^0.6.0",
-		"automattic/jetpack-status": "^5.0.9",
+		"automattic/jetpack-device-detection": "^3.0.5-alpha",
+		"automattic/jetpack-connection": "^6.7.7-alpha",
+		"automattic/jetpack-jitm": "^4.2.6-alpha",
+		"automattic/jetpack-logo": "^3.0.4-alpha",
+		"automattic/jetpack-plans": "^0.6.1-alpha",
+		"automattic/jetpack-status": "^5.0.10-alpha",
 		"automattic/jetpack-subscribers-dashboard": "^0.1.2-alpha"
 	},
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
-		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^6.0.1",
-		"automattic/patchwork-redefine-exit": "^2.0.5",
+		"yoast/phpunit-polyfills": "^3.0.0",
+		"automattic/jetpack-changelogger": "^6.0.2-alpha",
+		"automattic/patchwork-redefine-exit": "^2.0.6-alpha",
 		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "^1.0.0"
+		"automattic/phpunit-select-config": "^1.0.1-alpha"
 	},
 	"autoload": {
 		"classmap": [
