@@ -34,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 - Hide verify email launchpad task for "existing users"
 - Live Preview: Don't change the homepage when previewing a theme in the Site Editor
 - MU WPCOM: Prevent site owner from editing user's account-level fields
+- Site Visibility: Port the site visibility settings from Calypso to WP Admin
 - Theme: Clean up files that were used during the theme switch and theme preview
 - update composer.lock files
 - Updated package dependencies.
