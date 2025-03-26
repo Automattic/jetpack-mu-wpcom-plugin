@@ -59,6 +59,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Make email and password available on the profile.php on the default view
 - MU WPCOM: Port the fix of the modern color scheme from WP 6.8
 - Site Badge: Update styles of the Coming Soon badge
+- Site Visibility: Prevent accidental changes to blog_public on the Settings > Reading page
 - Verbum: fix broken block editor
 
 ## 2.7.0 - 2025-01-10
