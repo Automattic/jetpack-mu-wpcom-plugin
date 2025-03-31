@@ -179,6 +179,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Stats\\Tracking_Pixel' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats/src/class-tracking-pixel.php',
         'Automattic\\Jetpack\\Stats\\WPCOM_Stats' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats/src/class-wpcom-stats.php',
         'Automattic\\Jetpack\\Stats\\XMLRPC_Provider' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats/src/class-xmlrpc-provider.php',
+        'Automattic\\Jetpack\\Stats_Admin\\Admin_Post_List_Column' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-admin-post-list-column.php',
         'Automattic\\Jetpack\\Stats_Admin\\Dashboard' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-dashboard.php',
         'Automattic\\Jetpack\\Stats_Admin\\Main' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-main.php',
         'Automattic\\Jetpack\\Stats_Admin\\Notices' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-notices.php',
