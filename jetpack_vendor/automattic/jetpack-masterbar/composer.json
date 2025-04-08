@@ -10,7 +10,7 @@
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-device-detection": "^3.0.5",
 		"automattic/jetpack-connection": "^6.10.4-alpha",
-		"automattic/jetpack-jitm": "^4.2.12",
+		"automattic/jetpack-jitm": "^4.2.13-alpha",
 		"automattic/jetpack-logo": "^3.0.4",
 		"automattic/jetpack-plans": "^0.7.0",
 		"automattic/jetpack-status": "^5.1.2-alpha",
