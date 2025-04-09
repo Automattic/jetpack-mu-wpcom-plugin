@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
+### Removed
+- Color Scheme: Clean up *-rgb css variables
+
 ## 2.8.0 - 2025-04-04
 ### Added
 - Add newsletter widget to the dashboard. [#41807]
