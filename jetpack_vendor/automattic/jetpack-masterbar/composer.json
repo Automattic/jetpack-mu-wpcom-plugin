@@ -14,7 +14,7 @@
 		"automattic/jetpack-logo": "^3.0.4",
 		"automattic/jetpack-plans": "^0.7.0",
 		"automattic/jetpack-status": "^5.1.2-alpha",
-		"automattic/jetpack-subscribers-dashboard": "^0.1.6"
+		"automattic/jetpack-subscribers-dashboard": "^0.1.7-alpha"
 	},
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
