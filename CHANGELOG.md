@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Admin Menu: Update the icon of WooCommerce for the woo installation
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
 ### Deprecated
