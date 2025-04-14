@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Color Scheme: Clean up *-rgb css variables
+- Remove links to deprecated calypso views on the launchpad tasks
 
 ## 2.8.0 - 2025-04-04
 ### Added
