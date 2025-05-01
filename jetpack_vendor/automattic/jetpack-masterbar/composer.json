@@ -5,8 +5,8 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-assets": "^4.0.19",
-		"automattic/jetpack-blaze": "^0.25.22",
+		"automattic/jetpack-assets": "^4.0.20-alpha",
+		"automattic/jetpack-blaze": "^0.25.23-alpha",
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-device-detection": "^3.0.6",
 		"automattic/jetpack-connection": "^6.11.2-alpha",
