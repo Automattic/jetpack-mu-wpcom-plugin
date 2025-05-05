@@ -24,6 +24,9 @@ This is an alpha version! The changes listed here are not final.
 - Color Scheme: Clean up *-rgb css variables
 - Remove links to deprecated calypso views on the launchpad tasks
 
+### Fixed
+- JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
+
 ## 2.8.0 - 2025-04-04
 ### Added
 - Add newsletter widget to the dashboard. [#41807]
