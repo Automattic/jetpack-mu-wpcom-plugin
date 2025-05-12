@@ -6,15 +6,15 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-assets": "^4.0.20",
-		"automattic/jetpack-blaze": "^0.25.24-alpha",
+		"automattic/jetpack-blaze": "^0.25.24",
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-device-detection": "^3.0.6",
-		"automattic/jetpack-connection": "^6.11.3-alpha",
-		"automattic/jetpack-jitm": "^4.2.16-alpha",
+		"automattic/jetpack-connection": "^6.11.3",
+		"automattic/jetpack-jitm": "^4.2.16",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.8.0",
 		"automattic/jetpack-status": "^5.1.4",
-		"automattic/jetpack-subscribers-dashboard": "^0.1.10-alpha"
+		"automattic/jetpack-subscribers-dashboard": "^0.1.10"
 	},
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
