@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
+- My Jetpack: Fix readability of license activation button on hover.
 
 ## 2.8.0 - 2025-04-04
 ### Added
