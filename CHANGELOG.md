@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove links to deprecated calypso views on the launchpad tasks
 
 ### Fixed
+- Check for classes and methods before call
 - JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
 - My Jetpack: Fix readability of license activation button on hover.
 
