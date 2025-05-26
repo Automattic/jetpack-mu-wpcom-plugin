@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Check for classes and methods before call
 - JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
 - My Jetpack: Fix readability of license activation button on hover.
+- Remove packages/forms dependency from jetpack-mu-wpcom-plugin, change submenu registration
 
 ## 2.8.0 - 2025-04-04
 ### Added
