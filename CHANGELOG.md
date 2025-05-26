@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Check for classes and methods before call
+- Fixed wrapping on the stats column heading in non-English languages
 - JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
 - My Jetpack: Fix readability of license activation button on hover.
 - Remove packages/forms dependency from jetpack-mu-wpcom-plugin, change submenu registration
