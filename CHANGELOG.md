@@ -5,33 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.9.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 2.9.0 - 2025-06-06
 ### Added
-- Add jetpack-forms package dependency
-- Featured Content: Add messaging to clarify that the tag name is case sensitive.
+- Featured Content: Add messaging to clarify that the tag name is case-sensitive. [#43165]
 
 ### Changed
-- Admin Menu: Update the icon of WooCommerce for the woo installation
-- jetpack-assets now requires jetpack-status so updating composer lock files.
-- Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
-- Update package dependencies.
+- Admin Menu: Update WooCommerce icon. [#43029]
+- Site Visibility: Disable search engine indexing for `*.wpcomstaging.com` sites. [#42853]
+- Update package dependencies. [#43085] [#43425]
 
 ### Deprecated
-- Remove `default_rendering_mode` hotfix since there's no need for it anymore.
+- Remove `default_rendering_mode` hotfix. [#42984]
 
 ### Removed
-- Color Scheme: Clean up *-rgb css variables
-- Remove links to deprecated calypso views on the launchpad tasks
+- Color Scheme: Clean up *-rgb css variables. [#42960]
+- Remove links to deprecated Calypso views on the launchpad tasks. [#42923]
 
 ### Fixed
-- Check for classes and methods before call
-- Fixed wrapping on the stats column heading in non-English languages
-- JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
-- My Jetpack: Fix readability of license activation button on hover.
-- Remove packages/forms dependency from jetpack-mu-wpcom-plugin, change submenu registration
+- Block editor: fix layout issues with the Media Library modal buttons.. [#43035]
+- Forms: Change submenu registration. [#43627]
+- Forms: Check for classes and methods before call. [#43606]
+- Fix wrapping on the stats column heading in non-English languages. [#43630]
+- My Jetpack: Fix readability of license activation button on hover. [#43550]
 
 ## 2.8.0 - 2025-04-04
 ### Added

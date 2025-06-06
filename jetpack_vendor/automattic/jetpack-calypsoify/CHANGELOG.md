@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.5-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.2.5] - 2025-06-06
 ### Changed
-- Update dependencies.
+- Update dependencies. [#43785]
 
 ## [0.2.4] - 2025-06-03
 ### Changed
@@ -88,7 +85,7 @@ This is an alpha version! The changes listed here are not final.
 - Calypsoify: Load feature from the Calypsoify package. [#37375]
 - Updated package dependencies. [#37379]
 
-[0.2.5-alpha]: https://github.com/Automattic/jetpack-calypsoify/compare/v0.2.4...v0.2.5-alpha
+[0.2.5]: https://github.com/Automattic/jetpack-calypsoify/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/Automattic/jetpack-calypsoify/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/Automattic/jetpack-calypsoify/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/Automattic/jetpack-calypsoify/compare/v0.2.1...v0.2.2
