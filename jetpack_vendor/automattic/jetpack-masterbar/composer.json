@@ -13,7 +13,7 @@
 		"automattic/jetpack-jitm": "^4.2.23",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.8.0",
-		"automattic/jetpack-status": "^5.1.4",
+		"automattic/jetpack-status": "^5.2.0-alpha",
 		"automattic/jetpack-subscribers-dashboard": "^0.1.16"
 	},
 	"require-dev": {
