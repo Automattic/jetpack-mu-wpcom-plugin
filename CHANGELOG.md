@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- JITM: Fix ineffective caching due to expired plugin sync transient
+
 ## 2.9.0 - 2025-06-06
 ### Added
 - Featured Content: Add messaging to clarify that the tag name is case-sensitive. [#43165]
