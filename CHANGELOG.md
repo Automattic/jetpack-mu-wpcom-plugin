@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - add tracking for site settings launch action
 
 ### Changed
+- Sync: Ignore the ActivityPub Outbox CPT
 - Update package dependencies.
 
 ### Fixed
