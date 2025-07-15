@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add archives endpoint support.
 - add tracking for site settings launch action
+- Code editors: Added advanced code and CSS editors.
 
 ### Changed
 - Sync: Ignore the ActivityPub Outbox CPT
