@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - JITM: Fix ineffective caching due to expired plugin sync transient
+- Update JITMs to remove jQuery dependency
 
 ## 2.9.0 - 2025-06-06
 ### Added
