@@ -13,7 +13,7 @@
 		"automattic/jetpack-jitm": "^4.3.0",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.9.0",
-		"automattic/jetpack-status": "^6.0.0",
+		"automattic/jetpack-status": "^6.1.0-alpha",
 		"automattic/jetpack-subscribers-dashboard": "^0.1.24-alpha"
 	},
 	"require-dev": {
@@ -62,7 +62,7 @@
 	"extra": {
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.19.x-dev"
+			"dev-trunk": "0.20.x-dev"
 		},
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-masterbar/compare/v${old}...v${new}"
