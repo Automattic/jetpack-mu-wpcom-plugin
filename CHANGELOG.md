@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Code editors: Added advanced code and CSS editors.
 
 ### Changed
+- My Jetpack: Unify the user connection flow with a unified screen.
 - Sync: Ignore the ActivityPub Outbox CPT
 - Update package dependencies.
 
