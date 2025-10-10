@@ -8,13 +8,13 @@
 		"automattic/jetpack-assets": "^4.3.10",
 		"automattic/jetpack-blaze": "^0.26.12",
 		"automattic/jetpack-compat": "^4.0.1",
-		"automattic/jetpack-device-detection": "^3.1.0-alpha",
+		"automattic/jetpack-device-detection": "^3.1.0",
 		"automattic/jetpack-connection": "^6.18.13",
 		"automattic/jetpack-jitm": "^4.3.7",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.10.0",
 		"automattic/jetpack-status": "^6.0.4",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.3-alpha"
+		"automattic/jetpack-subscribers-dashboard": "^0.4.3"
 	},
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
