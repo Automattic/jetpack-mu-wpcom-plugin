@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.11.1-alpha - unreleased
+## 2.12.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
 
 ### Changed
 - Custom post types: Ensure features remain available when theme support is added.
