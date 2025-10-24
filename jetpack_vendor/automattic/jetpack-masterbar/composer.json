@@ -8,7 +8,7 @@
 		"automattic/jetpack-assets": "^4.3.10",
 		"automattic/jetpack-blaze": "^0.26.13",
 		"automattic/jetpack-compat": "^4.0.1",
-		"automattic/jetpack-device-detection": "^3.1.0",
+		"automattic/jetpack-device-detection": "^3.1.1-alpha",
 		"automattic/jetpack-connection": "^6.19.0",
 		"automattic/jetpack-jitm": "^4.3.7",
 		"automattic/jetpack-logo": "^3.0.5",
