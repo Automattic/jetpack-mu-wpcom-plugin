@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Custom post types: Ensure features remain available when theme support is added.
+- Don't translate product names.
 - Update package dependencies.
 
 ## 2.11.0 - 2025-10-10
