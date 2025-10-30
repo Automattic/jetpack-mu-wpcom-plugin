@@ -27,6 +27,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
 
     public static $classMap = array (
         'A8C\\FSE\\Help_Center' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center.php',
+        'A8C\\FSE\\Help_Center_Menu_Panel' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center-menu-panel.php',
         'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
         'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php',
         'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
