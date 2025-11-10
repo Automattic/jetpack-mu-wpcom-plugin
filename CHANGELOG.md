@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
 
 ### Changed
+- Code block: Remove active line highlight when block is unselected.
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
 - Update package dependencies.
