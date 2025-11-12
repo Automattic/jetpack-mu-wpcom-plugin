@@ -9,7 +9,7 @@
 		"automattic/jetpack-blaze": "^0.26.15",
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-device-detection": "^3.3.0",
-		"automattic/jetpack-connection": "^6.19.5-alpha",
+		"automattic/jetpack-connection": "^6.19.5",
 		"automattic/jetpack-jitm": "^4.3.8",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.10.0",
@@ -19,7 +19,7 @@
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-changelogger": "^6.0.9-alpha",
+		"automattic/jetpack-changelogger": "^6.0.9",
 		"automattic/patchwork-redefine-exit": "^2.0.9",
 		"automattic/jetpack-test-environment": "@dev",
 		"automattic/phpunit-select-config": "^1.0.3"
