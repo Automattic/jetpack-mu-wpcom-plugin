@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
+- Update scssphp/scssphp dependency.
 
 ### Changed
 - Code block: Remove active line highlight when block is unselected.
