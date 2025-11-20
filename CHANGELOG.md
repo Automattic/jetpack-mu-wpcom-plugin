@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
 - Don't translate product names.
 - Update package dependencies.
 
+### Fixed
+- Jetpack: remove getIconColor functions for block icons
+
 ## 2.11.0 - 2025-10-10
 ### Added
 - Add Code block (experimental). [#45181]
