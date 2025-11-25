@@ -8,6 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     '3773ef3f09c37da5478d578e32b03a4b' => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
     '7372b7fb88a9723cf5b76d456eb0b738' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/actions.php',
-    '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
+    '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
 );
