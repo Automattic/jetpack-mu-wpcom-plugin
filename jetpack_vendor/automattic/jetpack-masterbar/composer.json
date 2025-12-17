@@ -5,16 +5,16 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-assets": "^4.3.17-alpha",
-		"automattic/jetpack-blaze": "^0.26.21-alpha",
+		"automattic/jetpack-assets": "^4.3.17",
+		"automattic/jetpack-blaze": "^0.26.21",
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-device-detection": "^3.3.0",
-		"automattic/jetpack-connection": "^6.19.12-alpha",
+		"automattic/jetpack-connection": "^6.19.12",
 		"automattic/jetpack-jitm": "^4.3.12",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.11.1",
-		"automattic/jetpack-status": "^6.1.2-alpha",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.11-alpha"
+		"automattic/jetpack-status": "^6.1.2",
+		"automattic/jetpack-subscribers-dashboard": "^0.4.11"
 	},
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
