@@ -10,7 +10,7 @@
 		"automattic/jetpack-plans": "^0.11.1",
 		"automattic/jetpack-stats": "^0.17.7",
 		"automattic/jetpack-status": "^6.1.2",
-		"automattic/jetpack-jitm": "^4.3.13"
+		"automattic/jetpack-jitm": "^4.3.14-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
