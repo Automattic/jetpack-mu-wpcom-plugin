@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - Holiday Snow: Add speed and hemisphere settings.
 - IDC: Add revalidation for IDCs.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
