@@ -5,26 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.12.0-alpha - unreleased
+## 2.12.1-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
-- Holiday Snow: Add speed and hemisphere settings.
-- IDC: Add revalidation for IDCs.
-- Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
-- Update scssphp/scssphp dependency.
+
+## 2.12.0 - 2026-01-09
+### Added
+- Holiday Snow: Add speed and hemisphere settings. [#46139]
+- IDC: Add revalidation for IDCs. [#46268]
+- Introduces Attachment pages setting in the media settings screen in wp-admin which controls the `wp_attachment_pages_enabled` option. [#40590]
+- Update scssphp/scssphp dependency. [#45757]
 
 ### Changed
-- Code block: Remove active line highlight when block is unselected.
-- Code block: Remove experimental warning
-- Custom post types: Ensure features remain available when theme support is added.
-- Don't translate product names.
-- Update package dependencies.
+- Code block: Remove active line highlight when block is unselected. [#45828]
+- Code block: Remove experimental warning. [#45827]
+- Custom post types: Ensure features remain available when theme support is added. [#45407]
+- Don't translate product names. [#43961]
+- Update package dependencies. [#45478] [#45771] [#46082]
 
 ### Fixed
-- Jetpack: remove getIconColor functions for block icons
+- Jetpack: remove getIconColor functions for block icons. [#45992]
 
 ## 2.11.0 - 2025-10-10
 ### Added
