@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 
+### Changed
+- Update package dependencies.
+
 ### Removed
 - Remove the dotcom command palette.
 

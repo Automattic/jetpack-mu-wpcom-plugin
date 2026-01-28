@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/block-delimiter",
-                "reference": "3641fddec6ae394da39b11ddf2caba8f21f0768d"
+                "reference": "0341d459c4494da5ad72b4b6734b2c28758bc8fb"
             },
             "require": {
                 "php": ">=7.2"
@@ -73,7 +73,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-a8c-mc-stats",
-                "reference": "bc77fed5195a733fb427b5c2484d6c29cf803315"
+                "reference": "62f09251360c391adcec8dd2a8ab543171b3d435"
             },
             "require": {
                 "php": ">=7.2"
@@ -130,7 +130,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "6115ed9d0dd9d0be9b0b043a81bcf51bf4fcebb4"
+                "reference": "2ed955d2a58779a112f594097216613009bfe3fe"
             },
             "require": {
                 "php": ">=7.2"
@@ -193,7 +193,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "2434e140b5fcd2299647b7c3e6f263e5672ef3e4"
+                "reference": "2d9e4c08b53cf41c8027e14ceb5d138f3bf79874"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.8",
@@ -267,7 +267,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blaze",
-                "reference": "8dbc2f3f4d081914e4c3f66dcd65eb2ba5a3bb8a"
+                "reference": "a19c5410b18ba9bde6abcd90f16c85132254a9dc"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.21",
@@ -346,7 +346,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blocks",
-                "reference": "16ff2dab1a46373287f35ba810b5739d01b290c6"
+                "reference": "7c237b31f1307f066b885fe902de593ed2f6eb2f"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.8",
@@ -401,12 +401,12 @@
         },
         {
             "name": "automattic/jetpack-classic-theme-helper",
-            "version": "0.14.11",
-            "version_normalized": "0.14.11.0",
+            "version": "0.14.12-alpha.1769616682",
+            "version_normalized": "0.14.12.0-alpha1769616682",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-classic-theme-helper",
-                "reference": "7ce480fcdde207feb7ddd98a13162c9d260ae7b4"
+                "reference": "420090b18f1efb59d7af20b734537fa58d0ddeda"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.21",
@@ -475,7 +475,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-compat",
-                "reference": "649f54b91e07043c257618c795d4b3c5a1135849"
+                "reference": "23fce49c40f6398d3e2a246b9de03e95d30d5c9c"
             },
             "require": {
                 "php": ">=7.2"
@@ -515,7 +515,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-composer-plugin",
-                "reference": "6def0b303a86d1c12139082999ca23ec5a1ec4d1"
+                "reference": "409067936bc15cdc5f907adbeaf059c5f8fd40d8"
             },
             "require": {
                 "composer-plugin-api": "^2.2",
@@ -579,7 +579,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-connection",
-                "reference": "ee1dbde45ebc31bd4dd7bd8e836ed6bfba916c6a"
+                "reference": "43f743896f39ef38841b431578e26960307f70f0"
             },
             "require": {
                 "automattic/jetpack-a8c-mc-stats": "^3.0.5",
@@ -667,7 +667,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "18df2607771c2407d8fd0f0f09b99ac678bf612e"
+                "reference": "806a189b5f078d39955f847aaf0c3f18df262463"
             },
             "require": {
                 "php": ">=7.2"
@@ -725,7 +725,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-device-detection",
-                "reference": "9f7d2e487f8ad867aa783a2ab674c37c70f297a9"
+                "reference": "161779b4c0d4ef7c02f500a17f26b8b76143f8bf"
             },
             "require": {
                 "php": ">=7.2"
@@ -782,7 +782,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-explat",
-                "reference": "8a606b42b96d1dd20c8d801597d3fd12cd238109"
+                "reference": "0e674888e1e250574998f7f3e8fc4c676c80d571"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.20.5",
@@ -861,7 +861,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-google-analytics",
-                "reference": "4f247405a10a33064a1b00e11fc91c36d2cef89b"
+                "reference": "fdd51efa654f7fe39a489519067c857ee4f4c86b"
             },
             "require": {
                 "automattic/jetpack-status": "^6.1.2",
@@ -930,7 +930,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-ip",
-                "reference": "6a865cb4ef293203873169ebb21c36665c2ee25f"
+                "reference": "480a6e5a498837065c2aaf00b6d2e3405a7dea16"
             },
             "require": {
                 "php": ">=7.2"
@@ -992,7 +992,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-jitm",
-                "reference": "a3df0de250f4e4ff92486bb16b6b59e11e457a81"
+                "reference": "194caa8e9a10962164840321092737bb3b0811f4"
             },
             "require": {
                 "automattic/jetpack-a8c-mc-stats": "^3.0.5",
@@ -1071,7 +1071,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-logo",
-                "reference": "6e8c95c6f0015a52830f2808e8c9d4a7c10e7525"
+                "reference": "690a2613e2d66fdca9b4422ecd648720416fdfc3"
             },
             "require": {
                 "php": ">=7.2"
@@ -1128,7 +1128,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-masterbar",
-                "reference": "543b5b94fd76959db645b20fcbe58c3126d610fd"
+                "reference": "1a43bb24d6c086916200a42b5f27b8a6deb60974"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.21",
@@ -1214,13 +1214,13 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "53fa93431bf1199f8913ea1fa8b828965f5ca134"
+                "reference": "d7d2bdec9a827554971b481d7a6e9e7f2eb5d8b1"
             },
             "require": {
                 "automattic/block-delimiter": "^0.3.4",
                 "automattic/jetpack-assets": "^4.3.21",
                 "automattic/jetpack-blocks": "^3.3.0",
-                "automattic/jetpack-classic-theme-helper": "^0.14.11",
+                "automattic/jetpack-classic-theme-helper": "^0.14.12-alpha",
                 "automattic/jetpack-compat": "^4.0.1",
                 "automattic/jetpack-connection": "^6.20.5",
                 "automattic/jetpack-explat": "^0.4.8",
@@ -1303,7 +1303,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-password-checker",
-                "reference": "36ea6d1f4e2b8bd250a1c4f4d386001f6e5242d5"
+                "reference": "da001347a5c97fbf1bfa4bcdebb6aac89c42383d"
             },
             "require": {
                 "php": ">=7.2"
@@ -1362,7 +1362,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-plans",
-                "reference": "78e34e76306038c54ffc310599b4d0757d786a80"
+                "reference": "3cd090662326e4b8d5ec5b9db6c15983b0cf9e74"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.20.5",
@@ -1428,7 +1428,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-redirect",
-                "reference": "4085aa698a466599b43052bddac0a36e1b6983ed"
+                "reference": "410cda5262e8e27a7970123880cd2b4187916b8d"
             },
             "require": {
                 "automattic/jetpack-status": "^6.1.2",
@@ -1487,7 +1487,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-roles",
-                "reference": "87c59198056329b868e4fa75bf850670a87ada9c"
+                "reference": "0caebae589aef73c46782abe6d0f0fcb87e622db"
             },
             "require": {
                 "php": ">=7.2"
@@ -1545,7 +1545,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats",
-                "reference": "d12627094d980b4848d8271b4c7259bdbc2c8717"
+                "reference": "38a21daa6026725a1dd4190debc6fa92b7a9e42c"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.20.5",
@@ -1615,7 +1615,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats-admin",
-                "reference": "b8ece67f008fdda9306fb02978d529859401cf57"
+                "reference": "c3486e2b4960bc459d60a036146a3955830e7858"
             },
             "require": {
                 "automattic/jetpack-blaze": "^0.27.0",
@@ -1687,7 +1687,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-status",
-                "reference": "2e2a40d037c90d33353589f3b8a304a98175219b"
+                "reference": "bc1e677907dbcc72f11b40c89dd20ea0197f1418"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.8",
@@ -1755,7 +1755,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-subscribers-dashboard",
-                "reference": "f36fe8c9eed92d2747661d7bda269bd40849ee6c"
+                "reference": "51f4cb6a752f82cc7b26c5aa1af02ae16adb5532"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.20.5",
@@ -1832,12 +1832,12 @@
         },
         {
             "name": "automattic/jetpack-sync",
-            "version": "4.26.0-alpha.1769583485",
-            "version_normalized": "4.26.0.0-alpha1769583485",
+            "version": "4.26.0-alpha.1769616682",
+            "version_normalized": "4.26.0.0-alpha1769616682",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-sync",
-                "reference": "a023ecf48e2db555ea461a11beaa39f684ffbf35"
+                "reference": "8f0e55e827041c2b9853458a1c1f917d71e38639"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.20.5",
@@ -1913,7 +1913,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "66084803a4aae351b8b3ea96e011fdd5e3d3d5f8"
+                "reference": "3841814e09629ef97a56c94f99452c79646ce17e"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.20.5",
@@ -1975,21 +1975,21 @@
         },
         {
             "name": "league/uri",
-            "version": "7.6.0",
-            "version_normalized": "7.6.0.0",
+            "version": "7.8.0",
+            "version_normalized": "7.8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "f625804987a0a9112d954f9209d91fec52182344"
+                "reference": "4436c6ec8d458e4244448b069cc572d088230b76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/f625804987a0a9112d954f9209d91fec52182344",
-                "reference": "f625804987a0a9112d954f9209d91fec52182344",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/4436c6ec8d458e4244448b069cc572d088230b76",
+                "reference": "4436c6ec8d458e4244448b069cc572d088230b76",
                 "shasum": ""
             },
             "require": {
-                "league/uri-interfaces": "^7.6",
+                "league/uri-interfaces": "^7.8",
                 "php": "^8.1",
                 "psr/http-factory": "^1"
             },
@@ -2003,14 +2003,14 @@
                 "ext-gmp": "to improve IPV4 host parsing",
                 "ext-intl": "to handle IDN host with the best performance",
                 "ext-uri": "to use the PHP native URI class",
-                "jeremykendall/php-domain-parser": "to resolve Public Suffix and Top Level Domain",
-                "league/uri-components": "Needed to easily manipulate URI objects components",
-                "league/uri-polyfill": "Needed to backport the PHP URI extension for older versions of PHP",
+                "jeremykendall/php-domain-parser": "to further parse the URI host and resolve its Public Suffix and Top Level Domain",
+                "league/uri-components": "to provide additional tools to manipulate URI objects components",
+                "league/uri-polyfill": "to backport the PHP URI extension for older versions of PHP",
                 "php-64bit": "to improve IPV4 host parsing",
-                "rowbot/url": "to handle WHATWG URL",
+                "rowbot/url": "to handle URLs using the WHATWG URL Living Standard specification",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
-            "time": "2025-11-18T12:17:23+00:00",
+            "time": "2026-01-14T17:24:56+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2064,7 +2064,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri/tree/7.6.0"
+                "source": "https://github.com/thephpleague/uri/tree/7.8.0"
             },
             "funding": [
                 {
@@ -2076,17 +2076,17 @@
         },
         {
             "name": "league/uri-interfaces",
-            "version": "7.6.0",
-            "version_normalized": "7.6.0.0",
+            "version": "7.8.0",
+            "version_normalized": "7.8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-interfaces.git",
-                "reference": "ccbfb51c0445298e7e0b7f4481b942f589665368"
+                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/ccbfb51c0445298e7e0b7f4481b942f589665368",
-                "reference": "ccbfb51c0445298e7e0b7f4481b942f589665368",
+                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
+                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
                 "shasum": ""
             },
             "require": {
@@ -2099,10 +2099,10 @@
                 "ext-gmp": "to improve IPV4 host parsing",
                 "ext-intl": "to handle IDN host with the best performance",
                 "php-64bit": "to improve IPV4 host parsing",
-                "rowbot/url": "to handle WHATWG URL",
+                "rowbot/url": "to handle URLs using the WHATWG URL Living Standard specification",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
-            "time": "2025-11-18T12:17:23+00:00",
+            "time": "2026-01-15T06:54:53+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2151,7 +2151,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.6.0"
+                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.8.0"
             },
             "funding": [
                 {
@@ -2419,17 +2419,17 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v6.4.24",
-            "version_normalized": "6.4.24.0",
+            "version": "v6.4.30",
+            "version_normalized": "6.4.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "75ae2edb7cdcc0c53766c30b0a2512b8df574bd8"
+                "reference": "441c6b69f7222aadae7cbf5df588496d5ee37789"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/75ae2edb7cdcc0c53766c30b0a2512b8df574bd8",
-                "reference": "75ae2edb7cdcc0c53766c30b0a2512b8df574bd8",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/441c6b69f7222aadae7cbf5df588496d5ee37789",
+                "reference": "441c6b69f7222aadae7cbf5df588496d5ee37789",
                 "shasum": ""
             },
             "require": {
@@ -2440,7 +2440,7 @@
             "require-dev": {
                 "symfony/process": "^5.4|^6.4|^7.0"
             },
-            "time": "2025-07-10T08:14:14+00:00",
+            "time": "2025-11-26T14:43:45+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -2468,7 +2468,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v6.4.24"
+                "source": "https://github.com/symfony/filesystem/tree/v6.4.30"
             },
             "funding": [
                 {
