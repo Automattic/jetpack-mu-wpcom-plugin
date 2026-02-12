@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-assets": "^4.3.24-alpha",
-		"automattic/jetpack-blaze": "^0.27.2",
+		"automattic/jetpack-blaze": "^0.27.3-alpha",
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-device-detection": "^3.4.0",
 		"automattic/jetpack-connection": "^7.1.0-alpha",
@@ -14,7 +14,7 @@
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.11.2",
 		"automattic/jetpack-status": "^6.1.2",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.17"
+		"automattic/jetpack-subscribers-dashboard": "^0.4.18-alpha"
 	},
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
