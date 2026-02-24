@@ -1,18 +1,21 @@
 {
-	"name": "automattic/jetpack-classic-theme-helper",
-	"description": "Features used with classic themes",
+	"name": "automattic/jetpack-image-cdn",
+	"description": "Serve images through Jetpack's powerful CDN",
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-assets": "^4.3.26-alpha",
-		"automattic/jetpack-blocks": "^3.3.0",
-		"automattic/jetpack-post-media": "^0.1.1-alpha"
+		"automattic/jetpack-status": "^6.1.2"
 	},
 	"require-dev": {
+		"automattic/jetpack-test-environment": "@dev",
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-changelogger": "^6.0.14",
 		"automattic/phpunit-select-config": "^1.0.3"
+	},
+	"suggest": {
+		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
 	},
 	"autoload": {
 		"classmap": [
@@ -20,12 +23,6 @@
 		]
 	},
 	"scripts": {
-		"build-production": [
-			"pnpm run build-production"
-		],
-		"build-development": [
-			"pnpm run build"
-		],
 		"phpunit": [
 			"phpunit-select-config phpunit.#.xml.dist --colors=always"
 		],
@@ -39,20 +36,22 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
+		"mirror-repo": "Automattic/jetpack-image-cdn",
+		"changelogger": {
+			"link-template": "https://github.com/Automattic/jetpack-image-cdn/compare/v${old}...v${new}"
+		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.14.x-dev"
+			"dev-trunk": "0.7.x-dev"
 		},
-		"changelogger": {
-			"link-template": "https://github.com/Automattic/jetpack-classic-theme-helper/compare/v${old}...v${new}"
-		},
-		"mirror-repo": "Automattic/jetpack-classic-theme-helper",
-		"textdomain": "jetpack-classic-theme-helper",
+		"textdomain": "jetpack-image-cdn",
 		"version-constants": {
-			"::PACKAGE_VERSION": "src/class-main.php"
+			"::PACKAGE_VERSION": "src/class-image-cdn.php"
 		}
 	},
-	"suggest": {
-		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+	"config": {
+		"allow-plugins": {
+			"roots/wordpress-core-installer": true
+		}
 	}
 }
