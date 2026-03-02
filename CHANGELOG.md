@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 
 ### Changed
+- Remove header border-bottom from the admin page for a cleaner unified header appearance.
 - Update package dependencies.
 
 ### Removed
