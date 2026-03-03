@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
+- MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
 
 ### Changed
 - Remove header border-bottom from the admin page for a cleaner unified header appearance.
