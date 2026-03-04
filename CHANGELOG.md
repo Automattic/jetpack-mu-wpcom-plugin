@@ -21,6 +21,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Remove the dotcom command palette.
 
+### Fixed
+- Admin Page: Restore border on header component.
+
 ## 2.12.0 - 2026-01-09
 ### Added
 - Holiday Snow: Add speed and hemisphere settings. [#46139]
