@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Admin Page: Restore border on header component.
+- Newsletter: Fix Reading page notice URL and link to new settings page when the jetpack_wp_admin_newsletter_settings_enabled filter is enabled.
 
 ## 2.12.0 - 2026-01-09
 ### Added
