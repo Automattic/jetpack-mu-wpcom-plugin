@@ -16,7 +16,6 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
 
 ### Changed
-- Gutenberg RTC: Load wpcom-gutenberg-rtc script from widgets.wp.com instead of bundling it, enabling independent script deployments.
 - Remove header border-bottom from the admin page for a cleaner unified header appearance.
 - Update package dependencies.
 
