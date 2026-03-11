@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
+- Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 - MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
 
