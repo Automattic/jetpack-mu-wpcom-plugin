@@ -264,9 +264,7 @@ final class HostRecord implements JsonSerializable
 
     public static function isIp(Stringable|string|null $host): bool
     {
-        return self::isIpv4($host)
-            || self::isIpv6($host)
-            || self::isIpvFuture($host);
+        return !self::isRegisteredName($host);
     }
 
     public static function isRegisteredName(Stringable|string|null $host): bool

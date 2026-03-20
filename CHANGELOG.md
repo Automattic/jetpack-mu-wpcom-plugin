@@ -23,7 +23,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Remove the dotcom command palette.
-- RTC: Move implementation to generic package
 
 ### Fixed
 - Admin Page: Restore border on header component.

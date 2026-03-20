@@ -18,15 +18,12 @@ use BackedEnum;
 use Closure;
 use Countable;
 use IteratorAggregate;
-use League\Uri\StringCoercionMode;
 use Stringable;
 use Traversable;
 
 use function array_filter;
-use function array_key_exists;
-use function array_map;
-use function count;
-use function is_array;
+use function is_bool;
+use function is_scalar;
 
 use const ARRAY_FILTER_USE_BOTH;
 
@@ -122,7 +119,7 @@ final class VariableBag implements ArrayAccess, Countable, IteratorAggregate
      */
     public function assign(string $name, BackedEnum|Stringable|string|bool|int|float|array|null $value): void
     {
-        $this->variables[$name] = self::normalizeValue($value, $name, isNestedListAllowed: true);
+        $this->variables[$name] = $this->normalizeValue($value, $name, true);
     }
 
     /**
@@ -130,15 +127,20 @@ final class VariableBag implements ArrayAccess, Countable, IteratorAggregate
      *
      * @throws TemplateCanNotBeExpanded if the value contains nested list
      */
-    private static function normalizeValue(
-        BackedEnum|Stringable|string|bool|int|float|array|null $value,
+    private function normalizeValue(
+        BackedEnum|Stringable|string|float|int|bool|array|null $value,
         string $name,
         bool $isNestedListAllowed
     ): array|string {
+        if ($value instanceof BackedEnum) {
+            $value = $value->value;
+        }
+
         return match (true) {
-            !is_array($value) => (string) StringCoercionMode::Native->coerce($value),
+            is_bool($value) => true === $value ? '1' : '0',
+            (null === $value || is_scalar($value) || $value instanceof Stringable) => (string) $value,
             !$isNestedListAllowed => throw TemplateCanNotBeExpanded::dueToNestedListOfValue($name),
-            default => array_map(fn ($var) => self::normalizeValue($var, $name, isNestedListAllowed: false), $value),
+            default => array_map(fn ($var): array|string => self::normalizeValue($var, $name, false), $value),
         };
     }
 
