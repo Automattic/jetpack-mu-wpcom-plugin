@@ -676,6 +676,7 @@ return array(
     'WPCom_Comments_Likes' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/wpcom-comments.php',
     'WP_REST_Comment_Like' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/class-wp-rest-comment-like.php',
     'WP_REST_Newspack_Articles_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php',
+    'WP_REST_RTC_Notices' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/gutenberg-rtc-notices/class-wp-rest-rtc-notices.php',
     'Wpcom_Block_Patterns_From_Api' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-from-api.php',
     'Wpcom_Block_Patterns_Utils' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-utils.php',
     'csstidy' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/csstidy/class.csstidy.php',
