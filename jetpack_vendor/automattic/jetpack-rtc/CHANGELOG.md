@@ -15,3 +15,6 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add RTC-specific pixel beacons (`pinghub.rtc.*`) alongside existing shared beacons for dedicated RTC dashboarding, and add new beacons for JWT fetch latency/errors and send drops.
 - Disable RTC in site editor
+
+### Fixed
+- PingHub: support root/comment entity type so collaborative notes sync in real time over WebSockets
