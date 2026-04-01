@@ -18,4 +18,5 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Avoid endless PingHub reconnection loop on persistent WebSocket or JWT fetch errors
+- Disable RTC for super admins who are not members of the blog to prevent exposing their presence during support sessions.
 - PingHub: support root/comment entity type so collaborative notes sync in real time over WebSockets
