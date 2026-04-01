@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
 
 ### Changed
+- Dependencies: Update lock file to keep root requirements in sync.
 - Remove header border-bottom from the admin page for a cleaner unified header appearance.
 - Update package dependencies.
 
