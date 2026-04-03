@@ -22,3 +22,4 @@ This is an alpha version! The changes listed here are not final.
 - Defer reconnect backoff reset until WebSocket connection has been stable for 30 seconds
 - Disable RTC for super admins who are not members of the blog to prevent exposing their presence during support sessions.
 - PingHub: support root/comment entity type so collaborative notes sync in real time over WebSockets
+- Skip attachment entities in PingHub provider to avoid excessive WebSocket connections on media-heavy sites
