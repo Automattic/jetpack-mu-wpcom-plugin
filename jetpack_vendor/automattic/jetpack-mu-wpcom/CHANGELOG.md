@@ -61,7 +61,9 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
 - Removed the RTC enabled check before loading the notices endpoint
+- RTC: Bump WebSocket gradual rollout to 20% on Simple sites
 - RTC: Change visibility of welcome modal
+- RTC: Enable when WordPress 7.0+ is detected without the Gutenberg plugin
 - RTC: Gradual rollout – 100% of WoW sites and 5% of Simple sites
 - RTC: Increase HTTP polling rollout to 5% of WoW sites
 - RTC: Increase HTTP polling rollout to 25% of WoW sites
