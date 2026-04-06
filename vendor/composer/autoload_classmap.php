@@ -665,7 +665,6 @@ return array(
     'Verbum_Block_Utils' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
     'Verbum_Gutenberg_Editor' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
     'WPCOM_Enqueue_Dynamic_Script' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/wpcom-enqueue-dynamic-script/class-wpcom-enqueue-dynamic-script.php',
-    'WPCOM_REST_API_V2_Endpoint_Jetpack_Launch_Site' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-jetpack-launch-site.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
     'WPCOM_REST_API_V2_Endpoint_Site_Migration_Migrate_Guru_Key' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-migrate-guru-key.php',
