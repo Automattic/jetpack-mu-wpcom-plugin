@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Dependencies: Update lock file to keep root requirements in sync.
 - Remove header border-bottom from the admin page for a cleaner unified header appearance.
+- Update design of the sidebar upsell.
 - Update package dependencies.
 
 ### Removed
