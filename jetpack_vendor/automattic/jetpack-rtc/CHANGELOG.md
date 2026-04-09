@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Add RTC-specific pixel beacons (`pinghub.rtc.*`) alongside existing shared beacons for dedicated RTC dashboarding, and add new beacons for JWT fetch latency/errors and send drops.
 - Disable RTC in site editor
 - Move RTC notices (welcome notice, room-limit enforcement, join requests) from jetpack-mu-wpcom into the rtc package.
+- Multiplex all PingHub rooms over a single WebSocket connection per editing session, reducing connection count from N to 1.
 - Update package dependencies.
 
 ### Fixed
