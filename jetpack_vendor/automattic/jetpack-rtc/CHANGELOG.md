@@ -23,5 +23,6 @@ This is an alpha version! The changes listed here are not final.
 - Avoid endless PingHub reconnection loop on persistent WebSocket or JWT fetch errors
 - Defer reconnect backoff reset until WebSocket connection has been stable for 30 seconds
 - Disable RTC for super admins who are not members of the blog to prevent exposing their presence during support sessions.
+- Inline the keepalive Web Worker as a Blob URL so it works on sites that load scripts from a different origin.
 - PingHub: support root/comment entity type so collaborative notes sync in real time over WebSockets
 - Skip attachment entities in PingHub provider to avoid excessive WebSocket connections on media-heavy sites
