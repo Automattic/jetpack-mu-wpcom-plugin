@@ -5,32 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.13.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 2.13.0 - 2026-04-10
 ### Added
-- Add autoloader check to prevent fatal errors when plugin is activated before composer install.
-- Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
-- Gutenberg RTC: Connect to PingHub WebSocket directly using a server-generated JWT token, fixing real-time collaboration on custom-domain sites with third-party cookie restrictions.
-- Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature.
-- MU WPCOM: Support linking back to my.wordpress.com domain.
-- MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
+- Add autoloader check to prevent fatal errors when plugin is activated before composer install. [#46489]
+- Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections. [#47421]
+- Gutenberg RTC: Connect to PingHub WebSocket directly using a server-generated JWT token, fixing real-time collaboration on custom-domain sites with third-party cookie restrictions. [#47556]
+- Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature. [#47512]
+- MU WPCOM: Support linking back to my.wordpress.com domain. [#46559]
+- MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers. [#47403]
 
 ### Changed
-- Comment: Add Tracking to Jetpack upsell link.
-- Dependencies: Update lock file to keep root requirements in sync.
-- Remove header border-bottom from the admin page for a cleaner unified header appearance.
-- Update design of the sidebar upsell.
-- Update package dependencies.
+- Dependencies: Update lock file to keep root requirements in sync. [#47418]
+- Remove header border-bottom from the admin page for a cleaner unified header appearance. [#47313]
+- Update design of the sidebar upsell. [#47909]
+- Update package dependencies. [#46785] [#47021] [#47505]
 
 ### Removed
-- Remove the dotcom command palette.
-- RTC: Move implementation to generic package
+- Remove the dotcom command palette. [#46579]
+- RTC: Move implementation to generic package. [#47713]
 
 ### Fixed
-- Admin Page: Restore border on header component.
-- Newsletter: Fix Reading page notice URL and link to new settings page when the jetpack_wp_admin_newsletter_settings_enabled filter is enabled.
+- Admin Page: Restore border on header component. [#47425]
+- Newsletter: Fix Reading page notice URL and link to new settings page when the jetpack_wp_admin_newsletter_settings_enabled filter is enabled. [#47347]
 
 ## 2.12.0 - 2026-01-09
 ### Added
