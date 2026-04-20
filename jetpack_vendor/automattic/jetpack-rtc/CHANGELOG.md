@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add richer connection logging: channel path, JWT age at disconnect, wasClean flag, and reconnect attempt events.
+- RTC: Temporarily disable RTC on Atomic sites
 - Update package dependencies.
 
 ## 0.1.0 - 2026-04-09
