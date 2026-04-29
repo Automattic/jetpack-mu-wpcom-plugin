@@ -345,6 +345,7 @@ return array(
     'Marketplace_Products_Updater' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/marketplace-products-updater/class-marketplace-products-updater.php',
     'Newspack_Blocks' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/class-newspack-blocks.php',
     'Newspack_Blocks_API' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/class-newspack-blocks-api.php',
+    'PCG_Load_Tester' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-load-tester.php',
     'Psr\\Http\\Message\\MessageInterface' => $vendorDir . '/psr/http-message/src/MessageInterface.php',
     'Psr\\Http\\Message\\RequestFactoryInterface' => $vendorDir . '/psr/http-factory/src/RequestFactoryInterface.php',
     'Psr\\Http\\Message\\RequestInterface' => $vendorDir . '/psr/http-message/src/RequestInterface.php',
