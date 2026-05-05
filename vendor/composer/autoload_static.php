@@ -408,6 +408,8 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Newspack_Blocks' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/class-newspack-blocks.php',
         'Newspack_Blocks_API' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/class-newspack-blocks-api.php',
         'PCG_Load_Tester' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-load-tester.php',
+        'PCG_Rollback' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-rollback.php',
+        'PCG_Snapshot' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-snapshot.php',
         'Psr\\Http\\Message\\MessageInterface' => __DIR__ . '/..' . '/psr/http-message/src/MessageInterface.php',
         'Psr\\Http\\Message\\RequestFactoryInterface' => __DIR__ . '/..' . '/psr/http-factory/src/RequestFactoryInterface.php',
         'Psr\\Http\\Message\\RequestInterface' => __DIR__ . '/..' . '/psr/http-message/src/RequestInterface.php',
