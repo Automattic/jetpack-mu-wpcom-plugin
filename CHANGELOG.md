@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
 - Update package dependencies.
 
 ## 2.13.0 - 2026-04-10
