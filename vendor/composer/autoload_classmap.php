@@ -269,6 +269,7 @@ return array(
     'Automattic\\Jetpack\\Verbum_Comments' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
     'Automattic\\Jetpack\\Verbum_Moderate' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-moderate.php',
     'Automattic\\Jetpack\\WP_Abilities\\Registrar' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-abilities/src/class-registrar.php',
+    'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Polyfills' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-polyfills.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Global_Styles_Status_Rest_API' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php',
     'Jetpack_Custom_CSS_Enhancements' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php',
