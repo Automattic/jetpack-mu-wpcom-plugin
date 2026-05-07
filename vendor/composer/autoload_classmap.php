@@ -170,6 +170,7 @@ return array(
     'Automattic\\Jetpack\\Plans' => $vendorDir . '/automattic/jetpack-plans/src/class-plans.php',
     'Automattic\\Jetpack\\Podcast\\Admin_Page' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-admin-page.php',
     'Automattic\\Jetpack\\Podcast\\Podcast' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast.php',
+    'Automattic\\Jetpack\\Podcast\\Settings' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-settings.php',
     'Automattic\\Jetpack\\Post_Media' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-post-media.php',
     'Automattic\\Jetpack\\Post_Media\\Images' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-images.php',
     'Automattic\\Jetpack\\Post_Media\\Twitter_Cards' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php',
