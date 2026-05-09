@@ -233,6 +233,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Podcast\\Feed\\Feed_Detection' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-feed-detection.php',
         'Automattic\\Jetpack\\Podcast\\Podcast' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast.php',
         'Automattic\\Jetpack\\Podcast\\Settings' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-settings.php',
+        'Automattic\\Jetpack\\Podcast\\Tracks' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-tracks.php',
         'Automattic\\Jetpack\\Post_Media' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-post-media.php',
         'Automattic\\Jetpack\\Post_Media\\Images' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-images.php',
         'Automattic\\Jetpack\\Post_Media\\Twitter_Cards' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php',
