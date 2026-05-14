@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 - RTC: Re-enable RTC by default on WoW sites
 - Update package dependencies.
 
+### Removed
+- RTC: Remove the welcome modal.
+
 ## 0.1.0 - 2026-04-09
 ### Added
 - Initial version. [#47713]
