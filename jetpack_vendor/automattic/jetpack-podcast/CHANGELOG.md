@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: escape title overrides, descriptions, and iTunes category attribute values for the RSS feed to prevent malformed XML.
 
 ### Added
+- Add a Free and Premium plan card to the podcast welcome screen so users can see what podcasting includes per plan before they enable.
 - Add the Podcast Episode block. Embeds a single podcast episode from an audio or video file with Podcasting 2.0 metadata. Registration is gated behind the `jetpack_podcast_untangle` filter (default off).
 - Create AI Podcast: emit client-side tracks events for page view, generation request, episode plays, draft opens, pagination, and the quota banner / upgrade CTAs.
 - Dashboard: gate the Episodes tab on Premium product access, with a blurred locked-preview overlay for free users.
