@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Create AI Podcast: emit client-side tracks events for page view, generation request, episode plays, draft opens, pagination, and the quota banner / upgrade CTAs.
 - Dashboard: gate the Episodes tab on Premium product access, with a blurred locked-preview overlay for free users.
 - Default the untangle gate to enabled for A8C-proxied requests so Automatticians dogfood the new package on Simple and Atomic.
+- Distribution tab: show Pending/Live state badges next to each podcast directory.
 - Pocket Casts: replace the 3-step submit modal with a one-click Relay API flow that reflects pending/submitted state on the button and surfaces rejection reasons inline.
 - Podcast: add product-access gate (Podcast_Gate::has_product_access) and grandfather sticker constant.
 - Podcast Welcome: require a category when enabling podcasting.
