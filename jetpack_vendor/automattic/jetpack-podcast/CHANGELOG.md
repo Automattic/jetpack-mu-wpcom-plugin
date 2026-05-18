@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast dashboard: opt into the shared `jp-admin-page-tabs--minimal` modifier so the tab strip aligns with the page header and labels use the design-system font size.
 - Podcast dashboard: reorder tabs so Stats appears first, followed by Episodes, Distribution, and Settings.
 - Podcast Episode: enrich front-end schema.org markup and make chapter / soundbite list items click-to-seek in the audio player.
+- Podcast Episode block: delegate the untangle gate to Podcast::is_enabled() so the block honors the same default as the rest of the package.
 - Podcast Episodes: fall back to the show cover image when an episode has no featured image.
 - Podcast Episodes: open the episode stats drilldown from a play-count click in the Episodes tab.
 - Podcast Settings: create new categories inline without leaving the podcast dashboard.
