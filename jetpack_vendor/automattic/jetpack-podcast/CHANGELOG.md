@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Podcast: rename the Distribution "Live" state badge to "Submitted" — the underlying signal is a crawler hit, not directory publication.
+- Podcast Episode: swap inline chapters editor for a chapters JSON file uploader; feed now emits podcast:chapters.
 
 ### Fixed
 - Podcast: proxy stats and Pocket Casts submit through Jetpack REST routes so the dashboard works on Atomic.
