@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - Distribution: revert Podcast Index logo to previous version.
 - Podcast: enqueue WP media library so the cover image selector loads.
 - Podcast: skip rewriting the RSS enclosure URL through the stats endpoint when the URL does not resolve to a local attachment, so externally hosted enclosures stay playable.
+- Polish Podcast dashboard styles: match placeholder thumbnail size to populated thumbnails, and space out the Distribution tab's warning notice.
 
 ## 0.1.0 - 2026-05-11
 ### Added
