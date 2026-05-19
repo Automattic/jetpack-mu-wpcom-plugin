@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Podcast: rename the Distribution "Live" state badge to "Submitted" — the underlying signal is a crawler hit, not directory publication.
+
 ### Fixed
 - Podcast feed: strip the blavatar, site-icon, and rss-cloud channel tags from the podcast RSS feed so the output stays iTunes-compliant once the untangle filter is flipped globally.
 - Reduce podcast setup to a single click when you create a new category from the setup modal.
