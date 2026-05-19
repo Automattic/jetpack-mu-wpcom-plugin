@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Pocket Casts: replace the 3-step submit modal with a one-click Relay API flow that reflects pending/submitted state on the button and surfaces rejection reasons inline.
 - Podcast: add product-access gate (Podcast_Gate::has_product_access) and grandfather sticker constant.
 - Podcast Welcome: require a category when enabling podcasting.
+- Posts to Podcast: Add an editor modal inviting eligible sites to create a podcast episode after publishing a post.
 - Posts to Podcast: new Media > Create AI Podcast wp-admin page for generating podcast episode drafts from posts via the wpcom-side pipeline. Pick posts to include or use a recent-posts window, steer the output with a free-form prompt, watch a remaining-credits indicator backed by the quota-snapshot endpoint, and resume polling across page reloads. The page is plain PHP plus a vanilla-JS island — no React or wp-build chassis for this surface. Feature is wpcom-only; self-hosted Jetpack sites don't see the menu.
 - Stats tab: render show- and episode-level podcast download stats.
 
