@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Build: Run webpack and wp-build scripts concurrently.
+- Create AI Podcast: map 429 responses (including non-JSON edge rate-limit pages) to "Out of credits" and other non-JSON failures to "An unexpected error occurred." instead of "The response is not a valid JSON response."; decode HTML entities in the posts-picker titles so values like "&nbsp;" no longer render literally; add an "Experimental" badge to the intro banner; instrument the generation poller and post-publish promo with Tracks events for funnel analysis.
 - Create AI Podcast: visual polish, floating toast notices, dismissible notices, generated episodes list, server-side bootstrap, and credits panel with reset messaging.
 - Distribution: refresh Apple Podcasts, Spotify, YouTube Music, Amazon Music, and Podcast Index logos with current brand marks. Rename the YouTube directory to YouTube Music. Map matching slugs in the Stats "By app" and "Top app" labels.
 - Episodes stats: detect 402 responses from the episode stats endpoint as a Premium-required state.
