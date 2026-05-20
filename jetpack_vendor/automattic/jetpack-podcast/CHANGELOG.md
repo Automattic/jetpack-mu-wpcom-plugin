@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Podcast: default jetpack_podcast_untangle to true. The new package now owns the experience on every Simple and Atomic site by default; the filter stays as an escape hatch for forcing the legacy stack back on.
+
 ### Fixed
 - Podcast: surface a Show notes textarea in the Podcast Episode block (synced with the post Excerpt) so authors know where the episode description in Apple Podcasts / Spotify / Pocket Casts comes from. Strip non-podcast RSS chrome from the feed: drop content:encoded (full post body + image EXIF), media:content (avatar + post images), per-item categories, and the comments-link cluster.
 
