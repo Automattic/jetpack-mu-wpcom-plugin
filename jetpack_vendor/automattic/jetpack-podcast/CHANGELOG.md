@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: proxy stats and Pocket Casts submit through Jetpack REST routes so the dashboard works on Atomic.
 - Podcast feed: skip items without an enclosure and restore episode descriptions.
 - Podcast feed: strip the blavatar, site-icon, and rss-cloud channel tags from the podcast RSS feed so the output stays iTunes-compliant once the untangle filter is flipped globally.
+- Podcast settings + block polish from the regression sweep: decode HTML entities in the episode block title preview, defer Podcast Topics saves until focus leaves the field, persist empty Summary values, and align the block's season/episode number inputs with the feed's positive-integer requirement.
 - Reduce podcast setup to a single click when you create a new category from the setup modal.
 
 ## [1.0.0] - 2026-05-19
