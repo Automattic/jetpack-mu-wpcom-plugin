@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Create AI Podcast: Require a connected WordPress.com account.
+- Podcast: resolve the blog ID via Connection_Manager::get_site_id() for feed enclosure URLs and tracks events so Atomic sites use the correct WPCOM site ID instead of 1.
 
 ## [1.0.2] - 2026-05-20
 ### Changed
