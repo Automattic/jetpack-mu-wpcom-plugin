@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Create AI Podcast: Require a connected WordPress.com account.
+
 ## [1.0.2] - 2026-05-20
 ### Changed
 - Podcast: default jetpack_podcast_untangle to true. The new package now owns the experience on every Simple and Atomic site by default; the filter stays as an escape hatch for forcing the legacy stack back on.
