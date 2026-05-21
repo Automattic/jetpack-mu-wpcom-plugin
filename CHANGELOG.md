@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
 - Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
+- Updated package dependencies.
 - Update package dependencies.
 
 ## 2.13.0 - 2026-04-10
