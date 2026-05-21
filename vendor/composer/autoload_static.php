@@ -281,7 +281,6 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Status\\Host' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-status/src/class-host.php',
         'Automattic\\Jetpack\\Status\\Request' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-status/src/class-request.php',
         'Automattic\\Jetpack\\Status\\Visitor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-status/src/class-visitor.php',
-        'Automattic\\Jetpack\\Subscribers_Dashboard\\Dashboard' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-subscribers-dashboard/src/class-dashboard.php',
         'Automattic\\Jetpack\\Sync\\Actions' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/class-actions.php',
         'Automattic\\Jetpack\\Sync\\Activity_Log_Event' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/class-activity-log-event.php',
         'Automattic\\Jetpack\\Sync\\Codec_Interface' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/interface-codec.php',
