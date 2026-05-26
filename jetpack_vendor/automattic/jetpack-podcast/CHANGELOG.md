@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Create AI Podcast: Limit the "from specific posts" selection to 25 posts and surface a hint indicating the cap.
+
 ### Changed
 - Posts to Podcast: Make the Create AI Podcast page available to connected users.
 - Update package dependencies.
