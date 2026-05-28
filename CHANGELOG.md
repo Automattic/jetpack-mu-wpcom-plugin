@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add stats wp abbilities
 
 ### Changed
+- Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - General: update composer.lock files.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
