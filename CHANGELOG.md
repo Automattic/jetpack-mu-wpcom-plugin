@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
+- Update composer.lock files.
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
 - Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
 - Updated package dependencies.
