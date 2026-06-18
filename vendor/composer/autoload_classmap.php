@@ -46,6 +46,7 @@ return array(
     'Automattic\\Jetpack\\Assets\\Logo' => $baseDir . '/jetpack_vendor/automattic/jetpack-logo/src/class-logo.php',
     'Automattic\\Jetpack\\Assets\\Script_Data' => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-script-data.php',
     'Automattic\\Jetpack\\Assets\\Semver' => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-semver.php',
+    'Automattic\\Jetpack\\Assets\\Shared_Stores_Assets' => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-shared-stores-assets.php',
     'Automattic\\Jetpack\\Blaze' => $baseDir . '/jetpack_vendor/automattic/jetpack-blaze/src/class-blaze.php',
     'Automattic\\Jetpack\\Blaze\\Dashboard' => $baseDir . '/jetpack_vendor/automattic/jetpack-blaze/src/class-dashboard.php',
     'Automattic\\Jetpack\\Blaze\\Dashboard_Config_Data' => $baseDir . '/jetpack_vendor/automattic/jetpack-blaze/src/class-dashboard-config-data.php',
