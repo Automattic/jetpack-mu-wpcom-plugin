@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
+- AI Launchpad: bundle the jetpack-wp-build-polyfills dependency used by the new launchpad admin page.
 - Custom CSS to use device detection
 - General: update composer.lock files.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
