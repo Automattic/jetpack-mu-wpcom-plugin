@@ -92,6 +92,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'A8C\\WPCOM_DICTATION\\WP_REST_WPCOM_Smart_Dictation_Client_Secret' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-smart-dictation/class-wp-rest-wpcom-smart-dictation-client-secret.php',
         'AI_Launchpad_About_Page_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-about-page-listener.php',
         'AI_Launchpad_Dev_Enable' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-dev-enable.php',
+        'AI_Launchpad_First_Post_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-first-post-listener.php',
         'AI_Launchpad_Listeners' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-listeners.php',
         'AI_Launchpad_Memberships' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-memberships.php',
         'AI_Launchpad_REST' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-rest.php',
