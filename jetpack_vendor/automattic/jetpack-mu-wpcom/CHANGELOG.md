@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Add wpcom_build_fatal_error_signature() / wpcom_decode_fatal_error_signature() helpers for sharing a transportable plugin/version/core/php fatal-error signature across wpcom features.
 - Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
 - Agents Manager: Apply the `jetpack_ai_sidebar_agents_manager_data` filter so hosts can extend the inline `agentsManagerData` payload.
+- AI Launchpad: add a "Create your first gallery" task for photography and portfolio sites, opening the editor with a gallery pattern.
 - AI Launchpad: add an internal helper for enabling and resetting the feature during testing.
 - AI Launchpad: make tasks completable from wp-admin on Simple and Atomic — honor the catalog visibility gate, add local completion listeners (Jetpack Social, About page), retrieve real signals on Atomic (subscriber counts, memberships), and complete acknowledgment / no-signal tasks on CTA click (including a "Mark as complete" button and an SSH task). Point the social and design CTAs at wp-admin, hide the Jetpack Social tasks on private sites where their admin page isn't available, and add an ?all_tasks=1 testing param that renders the full task catalog.
 - AI Launchpad: pre-fill the wizard Name and Brief description from the site's title and tagline, and save them back to the site on completion.
