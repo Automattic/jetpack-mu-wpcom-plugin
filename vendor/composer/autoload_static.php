@@ -98,6 +98,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'AI_Launchpad_Memberships' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-memberships.php',
         'AI_Launchpad_REST' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-rest.php',
         'AI_Launchpad_Social_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-social-listener.php',
+        'AI_Launchpad_Subscribe_Block_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-subscribe-block-listener.php',
         'AI_Launchpad_Subscribers_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-subscribers-listener.php',
         'AI_Launchpad_Theme_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-theme-listener.php',
         'Automattic\\Block_Delimiter' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/block-delimiter/src/class-block-delimiter.php',
