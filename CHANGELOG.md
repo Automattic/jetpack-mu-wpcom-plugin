@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Update package dependencies.
 - WP.com Error Reporting: delegate all decisions to host-specific filters
+- WP.com Error Reporting: use direct fetch with no CORS preflight
 
 ## 2.13.0 - 2026-04-10
 ### Added
