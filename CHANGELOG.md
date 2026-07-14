@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
 - Updated package dependencies.
 - Update package dependencies.
+- WP.com Error Reporting: delegate all decisions to host-specific filters
 
 ## 2.13.0 - 2026-04-10
 ### Added
