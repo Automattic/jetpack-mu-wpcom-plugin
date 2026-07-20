@@ -77,6 +77,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
         'A8C\\FSE\\WP_REST_Help_Center_Fetch_Post' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-fetch-post.php',
         'A8C\\FSE\\WP_REST_Help_Center_Forum' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-forum.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Connection_Health' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-connection-health.php',
         'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Search_AI' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-search-ai.php',
         'A8C\\FSE\\WP_REST_Help_Center_Odie' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-odie.php',
         'A8C\\FSE\\WP_REST_Help_Center_Persisted_Open_State' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-persisted-open-state.php',
