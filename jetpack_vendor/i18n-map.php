@@ -32,6 +32,10 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-compat',
       'ver' => '4.0.4',
     ),
+    'jetpack-config' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-config',
+      'ver' => '3.1.3',
+    ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
       'ver' => '8.7.9-alpha1784298177',
@@ -62,7 +66,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.11.0-alpha1784323031',
+      'ver' => '6.11.0-alpha1784505878',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
@@ -75,6 +79,10 @@ return array(
     'jetpack-post-media' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-media',
       'ver' => '0.1.6',
+    ),
+    'jetpack-premium-analytics' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-premium-analytics',
+      'ver' => '0.1.0-alpha1784505878',
     ),
     'jetpack-rtc' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-rtc',
