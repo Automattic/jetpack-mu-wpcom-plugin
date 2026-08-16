@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - General: update composer.lock files.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
+- Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Update composer.lock files.
 - Updated composer.lock for the Podcast package's new jetpack-admin-ui dependency.
