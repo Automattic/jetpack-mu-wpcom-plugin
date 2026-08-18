@@ -32,6 +32,9 @@ This is an alpha version! The changes listed here are not final.
 - WP.com Error Reporting: delegate all decisions to host-specific filters
 - WP.com Error Reporting: use direct fetch with no CORS preflight
 
+### Fixed
+- Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them and repeat a label instead.
+
 ## 2.13.0 - 2026-04-10
 ### Added
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install. [#46489]
