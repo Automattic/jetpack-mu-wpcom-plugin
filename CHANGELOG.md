@@ -33,7 +33,8 @@ This is an alpha version! The changes listed here are not final.
 - WP.com Error Reporting: use direct fetch with no CORS preflight
 
 ### Fixed
-- Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them and repeat a label instead.
+- Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
+- Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
 
 ## 2.13.0 - 2026-04-10
 ### Added
