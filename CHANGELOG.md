@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
 - Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
+- Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Update composer.lock files.
 - Updated composer.lock for the Podcast package's new jetpack-admin-ui dependency.
