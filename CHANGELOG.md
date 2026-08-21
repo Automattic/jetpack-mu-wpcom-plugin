@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add stats wp abbilities
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
+- Stats: Add a Popular hours widget showing the busiest hour and its daily average views.
 
 ### Changed
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
