@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
+- Premium Analytics: Compute date-filter day boundaries in the site's timezone, so visitors west of the site timezone no longer get stretched ranges or wrong chart buckets.
 - Premium Analytics: fix a stray label stacked at the left edge of a chart's time axis after hiding a series from the legend, or when the chart mixes labelled bars with dated ones or compares two periods, and stop a labelled bar's tooltip reading "Invalid Date".
 - Premium Analytics: Fix charts getting stuck on their loading skeleton after switching a control that turns one of the underlying requests off.
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
