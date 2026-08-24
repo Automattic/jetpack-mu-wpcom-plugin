@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
+- Premium Analytics: Offer only the groupings the selected date range supports in the chart's Group by control.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Update composer.lock files.
@@ -46,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
 - Premium Analytics: Label chart points by the bucket they name rather than by the viewer's time zone, and format axis ticks and tooltips at the series' declared bucket size.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
+- Premium Analytics: Start the Traffic chart's Group by control from the dashboard's interval, and replace Auto with hourly grouping.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
 
 ## 2.13.0 - 2026-04-10
