@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add stats wp abbilities
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
+- Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
 - Stats: Add a Popular hours widget showing the busiest hour and its daily average views.
 - Stats: link the post list views column to the analytics post detail page when the new dashboard is enabled.
 
