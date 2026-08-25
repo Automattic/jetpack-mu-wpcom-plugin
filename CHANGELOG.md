@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
 - Premium Analytics: Label chart points by the bucket they name rather than by the viewer's time zone, and format axis ticks and tooltips at the series' declared bucket size.
 - Premium Analytics: label Subscribers chart and email timeline points by the bucket they name rather than by the viewer's time zone.
+- Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Start the Traffic chart's Group by control from the dashboard's interval, and replace Auto with hourly grouping.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
