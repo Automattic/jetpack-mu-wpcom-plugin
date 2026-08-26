@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: Offer only the groupings the selected date range supports in the chart's Group by control.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
+- Premium Analytics: Tighten the spacing between leaderboard rows.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Update composer.lock files.
 - Updated composer.lock for the Podcast package's new jetpack-admin-ui dependency.
