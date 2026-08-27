@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add stats wp abbilities
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
+- Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
 - Premium Analytics: Click Visitors in the Traffic chart legend to compare it against Views without leaving the metric. Chart legends now name the metric rather than the date range.
 - Stats: Add a Popular hours widget showing the busiest hour and its daily average views.
