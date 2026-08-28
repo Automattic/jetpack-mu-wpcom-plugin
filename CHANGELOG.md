@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - WP.com Error Reporting: use direct fetch with no CORS preflight
 
 ### Fixed
+- Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
 - Premium Analytics: Compare a date range against a previous month or year of the same length, so the percentages no longer measure 30 days against 29. Whole calendar months still compare month to month.
