@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - WP.com Error Reporting: use direct fetch with no CORS preflight
 
 ### Fixed
+- Admin bar: Fix site name and wpcom account menu item height.
 - Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
