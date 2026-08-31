@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - General: update composer.lock files.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
+- Make the help and Ask AI admin bar nodes available from the admin-bar REST endpoints, with the label, icon and destination a client needs.
 - Newspack Blocks: Update the Blog Posts and Posts Carousel blocks to Newspack Blocks 4.30.3.
 - Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
 - Premium Analytics: Add breathing room above and below the Top locations map.
