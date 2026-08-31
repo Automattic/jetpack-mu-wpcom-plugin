@@ -65,6 +65,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Label chart points by the bucket they name rather than by the viewer's time zone, and format axis ticks and tooltips at the series' declared bucket size.
 - Premium Analytics: label Subscribers chart and email timeline points by the bucket they name rather than by the viewer's time zone.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
+- Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
 - Premium Analytics: Remove the quarterly chart interval option, which never changed the chart.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
