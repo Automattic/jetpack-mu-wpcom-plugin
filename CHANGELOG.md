@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
+- Premium Analytics: add total and per-post image counts to the Annual insights report.
 - Premium Analytics: Click Visitors in the Traffic chart legend to compare it against Views without leaving the metric. Chart legends now name the metric rather than the date range.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Stats: Add a Popular hours widget showing the busiest hour and its daily average views.
@@ -65,10 +66,12 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Include the last day of the selected range in the WordAds card.
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
+- Premium Analytics: keep the Year in review report link reachable.
 - Premium Analytics: Label chart points by the bucket they name rather than by the viewer's time zone, and format axis ticks and tooltips at the series' declared bucket size.
 - Premium Analytics: label Subscribers chart and email timeline points by the bucket they name rather than by the viewer's time zone.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
 - Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
+- Premium Analytics: print the Annual insights words-per-post average whole, as the old Stats report does.
 - Premium Analytics: Remove the quarterly chart interval option, which never changed the chart.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
