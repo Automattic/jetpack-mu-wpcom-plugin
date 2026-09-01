@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Newspack Blocks: Update the Blog Posts and Posts Carousel blocks to Newspack Blocks 4.30.3.
 - Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
 - Premium Analytics: Add breathing room above and below the Top locations map.
+- Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
 - Premium Analytics: Move the Ads date range into the WordAds card's own header, and drop the section header's date filter.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
