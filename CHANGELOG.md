@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Offer only the groupings the selected date range supports in the chart's Group by control.
 - Premium Analytics: rename the Top pages CSV comparison column to "Views (Previous Period)" and move it after the primary columns.
 - Premium Analytics: Retitle the Popular post card to "Most popular post in the last 12 months" and pin it to the last 12 months.
+- Premium Analytics: Shorten the Popular post card title so it survives a narrow dashboard cell.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Premium Analytics: Tighten the spacing between leaderboard rows.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
