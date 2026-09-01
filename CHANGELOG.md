@@ -24,7 +24,6 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - AI Launchpad: bundle the jetpack-wp-build-polyfills dependency used by the new launchpad admin page.
-- Charts: update chart grid, axis and label colors immediately when the theme changes.
 - Custom CSS to use device detection
 - Forms, Stats: CSV export will now process data containing backslashed quotation marks as specified in the relevant standard.
 - General: update composer.lock files.
