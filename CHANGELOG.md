@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Stats: Add a Popular hours widget showing the busiest hour and its daily average views.
 - Stats: link the post list views column to the analytics post detail page when the new dashboard is enabled.
+- Write: Ask writers one question about their experience after their first post, with an optional comment.
 
 ### Changed
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
