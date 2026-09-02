@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Make the help and Ask AI admin bar nodes available from the admin-bar REST endpoints, with the label, icon and destination a client needs.
 - Newspack Blocks: Update the Blog Posts and Posts Carousel blocks to Newspack Blocks 4.30.3.
 - Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
+- Podcast: update composer.lock.
 - Premium Analytics: Add breathing room above and below the Top locations map.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
