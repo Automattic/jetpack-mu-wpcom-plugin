@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
+- Podcast dashboard: keep the chart tooltip under sticky and fixed page elements.
 - Premium Analytics: Compare a date range against a previous month or year of the same length, so the percentages no longer measure 30 days against 29. Whole calendar months still compare month to month.
 - Premium Analytics: Compute date-filter day boundaries in the site's timezone, so visitors west of the site timezone no longer get stretched ranges or wrong chart buckets.
 - Premium Analytics: Drop the Last 24 hours range from the WordAds card, which has no hourly data to chart.
