@@ -186,6 +186,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Help_Center\\Help_Center' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center.php',
         'Automattic\\Jetpack\\Help_Center\\Help_Center_Menu_Panel' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center-menu-panel.php',
         'Automattic\\Jetpack\\Help_Center\\Jetpack_Wpcom_Request_Client' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-help-center/src/class-jetpack-wpcom-request-client.php',
+        'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Article_Rating' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-article-rating.php',
         'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Authenticate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-authenticate.php',
         'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-controller.php',
         'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Email_Support_Enabled' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-email-support-enabled.php',
