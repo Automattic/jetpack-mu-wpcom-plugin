@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Premium Analytics: Tighten the spacing between leaderboard rows.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
+- RTC: Skip unnecessary eligibility checks when real-time collaboration is disabled.
 - Update composer.lock files.
 - Updated composer.lock for the Podcast package's new jetpack-admin-ui dependency.
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
