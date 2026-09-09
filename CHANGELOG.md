@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add stats wp abbilities
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
+- PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
@@ -60,6 +61,9 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: Fix site name and wpcom account menu item height.
 - Admin color schemes: render the checked checkbox and radio marks in white, matching core.
 - Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window.
+- PayPal Payment Buttons: include PayPal's own error details when it rejects a partner referral, so a failed connection says what was wrong.
+- PayPal Payment Buttons: name the platform credential constants that are missing when an environment is only partly configured.
+- PayPal Payment Buttons: refuse to generate an onboarding link when the platform partner merchant ID is not configured, instead of failing later with an unrelated error.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
 - Podcast dashboard: keep the chart tooltip under sticky and fixed page elements.
