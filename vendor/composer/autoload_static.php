@@ -124,6 +124,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Comments\\Embeds' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/editor/class-embeds.php',
         'Automattic\\Jetpack\\Comments\\Identity' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/identity/class-identity.php',
         'Automattic\\Jetpack\\Comments\\Passport' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/identity/checkpoint/class-passport.php',
+        'Automattic\\Jetpack\\Comments\\Tracks' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/class-tracks.php',
         'Automattic\\Jetpack\\Composer\\Manager' => __DIR__ . '/..' . '/automattic/jetpack-composer-plugin/src/class-manager.php',
         'Automattic\\Jetpack\\Composer\\Plugin' => __DIR__ . '/..' . '/automattic/jetpack-composer-plugin/src/class-plugin.php',
         'Automattic\\Jetpack\\Connection\\Abilities\\Connection_Abilities' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/src/abilities/class-connection-abilities.php',
