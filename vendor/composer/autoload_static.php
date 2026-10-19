@@ -809,6 +809,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'WPCom_Themes_Api' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-api.php',
         'WPCom_Themes_Cache' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-cache.php',
         'WPCom_Themes_Mapper' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-mapper.php',
+        'WPCom_Themes_Store' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-store.php',
         'WPCom_Themes_Tiers' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-tiers.php',
         'WP_REST_Comment_Like' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/class-wp-rest-comment-like.php',
         'WP_REST_Newspack_Articles_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php',
