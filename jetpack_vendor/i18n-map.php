@@ -38,7 +38,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '9.13.1-alpha1792608489',
+      'ver' => '9.13.1-alpha1792647408',
     ),
     'jetpack-explat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-explat',
@@ -74,7 +74,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.12.0-alpha1792647392',
+      'ver' => '6.12.0-alpha1792647408',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
