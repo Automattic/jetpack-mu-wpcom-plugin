@@ -303,6 +303,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php',
         'Automattic\\Jetpack\\Scheduled_Updates_Logs' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',
         'Automattic\\Jetpack\\Shortcodes' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-shortcodes.php',
+        'Automattic\\Jetpack\\Stats\\AMP_Consent_Sanitizer' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats/src/class-amp-consent-sanitizer.php',
         'Automattic\\Jetpack\\Stats\\Abilities\\Stats_Abilities' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats/src/abilities/class-stats-abilities.php',
         'Automattic\\Jetpack\\Stats\\Main' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats/src/class-main.php',
         'Automattic\\Jetpack\\Stats\\Options' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-stats/src/class-options.php',
