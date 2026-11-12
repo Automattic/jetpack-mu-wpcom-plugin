@@ -69,6 +69,7 @@ class ComposerStaticInitd9d132a783958a00a2c7cccff60ca42d_jetpack_mu_wpcom_plugin
         'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
         'A8C\\FSE\\Survicate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/survicate/class-survicate.php',
         'AI_Launchpad_About_Page_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-about-page-listener.php',
+        'AI_Launchpad_Bring_Your_AI_Tool' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-bring-your-ai-tool.php',
         'AI_Launchpad_Contact_Page_Listener' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-contact-page-listener.php',
         'AI_Launchpad_Dev_Enable' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-dev-enable.php',
         'AI_Launchpad_Difm_Offer' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-difm-offer.php',
