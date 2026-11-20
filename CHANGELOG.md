@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: Add a "Free domain" upsell chip, shown in wp-admin and the omnibar, and hide the matching free-to-paid and monthly-to-annual sidebar notices for users in the omnibar upsell experiment treatment.
 
 ### Changed
+- Updated composer.lock.
 - Update package dependencies.
 
 ## 2.14.0 - 2026-10-14
